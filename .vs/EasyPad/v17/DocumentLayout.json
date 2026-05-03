@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\EasyPad\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{216008A7-6469-4F68-8C02-3D7723BE922B}|EasyPad\\EasyPad.csproj|d:\\easypad\\easypad\\commenting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{216008A7-6469-4F68-8C02-3D7723BE922B}|EasyPad\\EasyPad.csproj|solutionrelative:easypad\\commenting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{216008A7-6469-4F68-8C02-3D7723BE922B}|EasyPad\\EasyPad.csproj|d:\\easypad\\easypad\\easypad.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{216008A7-6469-4F68-8C02-3D7723BE922B}|EasyPad\\EasyPad.csproj|solutionrelative:easypad\\easypad.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{216008A7-6469-4F68-8C02-3D7723BE922B}|EasyPad\\EasyPad.csproj|d:\\easypad\\easypad\\easypadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{216008A7-6469-4F68-8C02-3D7723BE922B}|EasyPad\\EasyPad.csproj|solutionrelative:easypad\\easypadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{216008A7-6469-4F68-8C02-3D7723BE922B}|EasyPad\\EasyPad.csproj|d:\\easypad\\easypad\\layoutmath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{216008A7-6469-4F68-8C02-3D7723BE922B}|EasyPad\\EasyPad.csproj|solutionrelative:easypad\\layoutmath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{216008A7-6469-4F68-8C02-3D7723BE922B}|EasyPad\\EasyPad.csproj|d:\\easypad\\easypad\\procedures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{216008A7-6469-4F68-8C02-3D7723BE922B}|EasyPad\\EasyPad.csproj|solutionrelative:easypad\\procedures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{216008A7-6469-4F68-8C02-3D7723BE922B}|EasyPad\\EasyPad.csproj|d:\\easypad\\easypad\\eventhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{216008A7-6469-4F68-8C02-3D7723BE922B}|EasyPad\\EasyPad.csproj|solutionrelative:easypad\\eventhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{216008A7-6469-4F68-8C02-3D7723BE922B}|EasyPad\\EasyPad.csproj|D:\\EasyPad\\easypad\\easypadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{216008A7-6469-4F68-8C02-3D7723BE922B}|EasyPad\\EasyPad.csproj|solutionrelative:easypad\\easypadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 203,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EasyPad",
+              "DocumentMoniker": "D:\\EasyPad\\EasyPad\\EasyPad.csproj",
+              "RelativeDocumentMoniker": "EasyPad\\EasyPad.csproj",
+              "ToolTip": "D:\\EasyPad\\EasyPad\\EasyPad.csproj",
+              "RelativeToolTip": "EasyPad\\EasyPad.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-08T11:17:05.158Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EasyPadForm.cs [Design]",
+              "DocumentMoniker": "D:\\EasyPad\\EasyPad\\EasyPadForm.cs",
+              "RelativeDocumentMoniker": "EasyPad\\EasyPadForm.cs",
+              "ToolTip": "D:\\EasyPad\\EasyPad\\EasyPadForm.cs [Design]",
+              "RelativeToolTip": "EasyPad\\EasyPadForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T21:11:53.045Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EasyPadForm.cs",
+              "DocumentMoniker": "D:\\EasyPad\\EasyPad\\EasyPadForm.cs",
+              "RelativeDocumentMoniker": "EasyPad\\EasyPadForm.cs",
+              "ToolTip": "D:\\EasyPad\\EasyPad\\EasyPadForm.cs",
+              "RelativeToolTip": "EasyPad\\EasyPadForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T16:21:02.875Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EventHandlers.cs",
+              "DocumentMoniker": "D:\\EasyPad\\EasyPad\\EventHandlers.cs",
+              "RelativeDocumentMoniker": "EasyPad\\EventHandlers.cs",
+              "ToolTip": "D:\\EasyPad\\EasyPad\\EventHandlers.cs",
+              "RelativeToolTip": "EasyPad\\EventHandlers.cs",
+              "ViewState": "AgIAAAcCAAAAAAAAAAA8wNkDAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T07:07:30.911Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Commenting.cs",
+              "DocumentMoniker": "D:\\EasyPad\\EasyPad\\Commenting.cs",
+              "RelativeDocumentMoniker": "EasyPad\\Commenting.cs",
+              "ToolTip": "D:\\EasyPad\\EasyPad\\Commenting.cs",
+              "RelativeToolTip": "EasyPad\\Commenting.cs",
+              "ViewState": "AgIAAPMAAAAAAAAAAAA4wPUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T07:08:12.856Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Procedures.cs",
+              "DocumentMoniker": "D:\\EasyPad\\EasyPad\\Procedures.cs",
+              "RelativeDocumentMoniker": "EasyPad\\Procedures.cs",
+              "ToolTip": "D:\\EasyPad\\EasyPad\\Procedures.cs",
+              "RelativeToolTip": "EasyPad\\Procedures.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T06:48:07.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LayoutMath.cs",
+              "DocumentMoniker": "D:\\EasyPad\\EasyPad\\LayoutMath.cs",
+              "RelativeDocumentMoniker": "EasyPad\\LayoutMath.cs",
+              "ToolTip": "D:\\EasyPad\\EasyPad\\LayoutMath.cs",
+              "RelativeToolTip": "EasyPad\\LayoutMath.cs",
+              "ViewState": "AgIAAMYCAAAAAAAAAAAIwNUCAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T06:50:08.395Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "FramesPinnedWhenTheyWereClosed": [
+    -1065686023,
+    1253250763,
+    -242317074,
+    1883519868
+  ]
+}

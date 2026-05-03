@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyVersion>1.0.0.11</AssemblyVersion>
+    <FileVersion>1.0.0.11</FileVersion>
+    <ApplicationIcon>EasyCleanerIcon.ico</ApplicationIcon>
+    <Title>Easy Pad Cleaner</Title>
+    <Authors>Edgar Francis Musgrove, V</Authors>
+    <Company>EFM5</Company>
+    <Copyright>Public domain; open source (source available upon request)</Copyright>
+    <NeutralLanguage>en</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="EasyCleanerIcon.ico" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="CD ..\&#xD;&#xA;call SuccessfulCompile.bat" />
+  </Target>
+
+</Project>

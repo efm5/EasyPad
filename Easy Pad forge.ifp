@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<InstallForgeProject>
+  <Metadata productVersion="1.6.1" projectFileVersion="2.0"/>
+  <ProductInformation>
+    <Name>Easy Pad</Name>
+    <Version>1.0.1.18</Version>
+    <CompanyName>efm5</CompanyName>
+    <WebURI/>
+  </ProductInformation>
+  <InstallerConfiguration>
+    <Prerequisites>
+      <OperatingSystem check="true">
+        <WindowsXP>false</WindowsXP>
+        <WindowsServer2003>false</WindowsServer2003>
+        <WindowsVista>false</WindowsVista>
+        <WindowsServer2008>false</WindowsServer2008>
+        <Windows7>false</Windows7>
+        <Windows8>false</Windows8>
+        <Windows10>true</Windows10>
+        <WindowsServer2016>true</WindowsServer2016>
+        <WindowsServer2019>true</WindowsServer2019>
+        <WindowsServer2022>true</WindowsServer2022>
+        <Windows11>true</Windows11>
+        <WindowsServer2025>true</WindowsServer2025>
+      </OperatingSystem>
+    </Prerequisites>
+    <UserInterface>
+      <WizardImage filePath="&lt;main&gt;"/>
+      <HeaderImage filePath="&lt;main&gt;"/>
+      <Label isEnabled="true"/>
+      <VisualStyle isEnabled="true"/>
+    </UserInterface>
+    <InstallationFiles defaultInstallationPath="&lt;ProgramFiles&gt;\&lt;Company&gt;\&lt;AppName&gt;" isDefaultInstallationPathAlterable ="true">
+      <InstallationFile size="258.5 KB" type="exe">C:\Program Files (x86)\EFM5\Easy Pad\EasyPad.exe</InstallationFile>
+      <InstallationFile size="519 Byte" type="json">C:\Program Files (x86)\EFM5\Easy Pad\EasyPad.runtimeconfig.json</InstallationFile>
+      <InstallationFile size="434 Byte" type="json">C:\Program Files (x86)\EFM5\Easy Pad\EasyPadCleaner.deps.json</InstallationFile>
+      <InstallationFile size="748 KB" type="dll">C:\Program Files (x86)\EFM5\Easy Pad\EasyPadCleaner.dll</InstallationFile>
+      <InstallationFile size="515.5 KB" type="exe">C:\Program Files (x86)\EFM5\Easy Pad\EasyPadCleaner.exe</InstallationFile>
+      <InstallationFile size="458 Byte" type="json">C:\Program Files (x86)\EFM5\Easy Pad\EasyPadCleaner.runtimeconfig.json</InstallationFile>
+      <InstallationFile size="96 KB" type="dll">C:\Program Files (x86)\EFM5\Easy Pad\Microsoft.WindowsAPICodePack.dll</InstallationFile>
+      <InstallationFile size="529.5 KB" type="dll">C:\Program Files (x86)\EFM5\Easy Pad\Microsoft.WindowsAPICodePack.Shell.dll</InstallationFile>
+      <InstallationFile size="N/A" type="[Folder]">C:\Program Files (x86)\EFM5\Easy Pad\Help</InstallationFile>
+      <InstallationFile size="1.7 KB" type="json">C:\Program Files (x86)\EFM5\Easy Pad\EasyPad.deps.json</InstallationFile>
+      <InstallationFile size="440.5 KB" type="dll">C:\Program Files (x86)\EFM5\Easy Pad\EasyPad.dll</InstallationFile>
+      <InstallationFile size="7 KB" type="config">C:\Program Files (x86)\EFM5\Easy Pad\EasyPad.dll.config</InstallationFile>
+    </InstallationFiles>
+    <Languages/>
+    <Variables/>
+    <Commands/>
+    <Registry/>
+    <Shortcuts defaultPath="&lt;Company&gt;\&lt;AppName&gt;\" isDefaultPathAlterable="false" isCreateStartmenuShortcutsForAllUsers="false" isCreateDesktopShortcutsForAllUsers="false">
+      <Shortcut destination="Desktop" name="Easy Pad" targetFile="&lt;InstallPath&gt;\" commandLineArguments="" iconFilePath="" iconIndex="0"/>
+    </Shortcuts>
+    <Serials isDialogEnabled="false" count="1000" mask ="#####-#####-#####-#####"/>
+    <SplashScreen isDialogEnabled="false" delayTime="2">
+      <Image filePath=""/>
+      <Sound isEnabled="false" filePath=""/>
+    </SplashScreen>
+    <License isDialogEnabled="false">
+      <Data>e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcZGVmZjBcbm91aWNvbXBhdFxkZWZsYW5nMTAzM3tcZm9udHRibHtcZjBcZm5pbCBBcmlhbDt9fQ0Ke1wqXGdlbmVyYXRvciBSaWNoZWQyMCAxMC4wLjE5MDQxfVx2aWV3a2luZDRcdWMxIA0KXHBhcmRcZjBcZnMyMFxwYXINCn0NCgA=</Data>
+    </License>
+    <Finish isRebootMachineEnabled="false">
+      <Program executableFilePath="&lt;InstallPath&gt;\" isLaunchEnabled="false" arguments=""/>
+    </Finish>
+  </InstallerConfiguration>
+  <UninstallerConfiguration isPackaged="true">
+    <UninstallerExecutableFileName>Uninstall</UninstallerExecutableFileName>
+    <OpenWebURIAfterUninstallation isEnabled="false">https://</OpenWebURIAfterUninstallation>
+    <CustomDisplayIcon isEnabled="false" iconFilePath="&lt;InstallPath&gt;\"/>
+  </UninstallerConfiguration>
+  <VisualUpdateConfiguration isPackaged="false">
+    <ProductName>&lt;AppName&gt;</ProductName>
+    <ProductVersion>&lt;AppVersion&gt;</ProductVersion>
+    <Language>0</Language>
+    <UpdateScriptURIs>
+      <MainURI>https://</MainURI>
+      <FirstMirrorURI>https://</FirstMirrorURI>
+      <SecondMirrorURI>https://</SecondMirrorURI>
+    </UpdateScriptURIs>
+    <updateExecutableFileName>Update</updateExecutableFileName>
+    <proEditionLicenseKey/>
+    <Program executableFilePath="" isLaunchEnabled="false" isTerminationEnabled="false"/>
+  </VisualUpdateConfiguration>
+  <BuildConfiguration>
+    <SetupFilePath>C:\Users\edgar\Desktop\EasyPad1.0.1.18installer.exe</SetupFilePath>
+    <SetupIconPath>..\icons\ancient.ico</SetupIconPath>
+    <UninstallerIconPath>..\icons\ancient.ico</UninstallerIconPath>
+    <Compression method="0" level="2"/>
+    <CodeSigning isEnabled="false" signToolCommandLine="/n &quot;Subject&quot; /tr http://timestamp.digicert.com /td sha256 /fd sha256 &quot;&lt;ExecutableFilePath&gt;&quot;"/>
+  </BuildConfiguration>
+</InstallForgeProject>

@@ -1,0 +1,16 @@
+D:\EasyPad\EasyPadCleaner\EasyPadCleaner\bin\Debug\net7.0-windows\EasyPadCleaner.exe
+D:\EasyPad\EasyPadCleaner\EasyPadCleaner\bin\Debug\net7.0-windows\EasyPadCleaner.deps.json
+D:\EasyPad\EasyPadCleaner\EasyPadCleaner\bin\Debug\net7.0-windows\EasyPadCleaner.runtimeconfig.json
+D:\EasyPad\EasyPadCleaner\EasyPadCleaner\bin\Debug\net7.0-windows\EasyPadCleaner.dll
+D:\EasyPad\EasyPadCleaner\EasyPadCleaner\bin\Debug\net7.0-windows\EasyPadCleaner.pdb
+D:\EasyPad\EasyPadCleaner\EasyPadCleaner\obj\Debug\net7.0-windows\EasyPadCleaner.csproj.GenerateResource.cache
+D:\EasyPad\EasyPadCleaner\EasyPadCleaner\obj\Debug\net7.0-windows\EasyPadCleaner.GeneratedMSBuildEditorConfig.editorconfig
+D:\EasyPad\EasyPadCleaner\EasyPadCleaner\obj\Debug\net7.0-windows\EasyPadCleaner.AssemblyInfoInputs.cache
+D:\EasyPad\EasyPadCleaner\EasyPadCleaner\obj\Debug\net7.0-windows\EasyPadCleaner.AssemblyInfo.cs
+D:\EasyPad\EasyPadCleaner\EasyPadCleaner\obj\Debug\net7.0-windows\EasyPadCleaner.csproj.CoreCompileInputs.cache
+D:\EasyPad\EasyPadCleaner\EasyPadCleaner\obj\Debug\net7.0-windows\EasyPadCleaner.dll
+D:\EasyPad\EasyPadCleaner\EasyPadCleaner\obj\Debug\net7.0-windows\refint\EasyPadCleaner.dll
+D:\EasyPad\EasyPadCleaner\EasyPadCleaner\obj\Debug\net7.0-windows\EasyPadCleaner.pdb
+D:\EasyPad\EasyPadCleaner\EasyPadCleaner\obj\Debug\net7.0-windows\EasyPadCleaner.genruntimeconfig.cache
+D:\EasyPad\EasyPadCleaner\EasyPadCleaner\obj\Debug\net7.0-windows\ref\EasyPadCleaner.dll
+D:\EasyPad\EasyPadCleaner\EasyPadCleaner\obj\Debug\net7.0-windows\EasyPadCleaner.EasyPadCleanerForm.resources

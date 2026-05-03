@@ -1,0 +1,16 @@
+& New
+& open
+& save
+save &as
+& print
+c&ut
+& copy
+& paste
+& help
+set comment &width
+add &double
+add &triple
+&remove
+&wrap
+&update
+co&mment out
