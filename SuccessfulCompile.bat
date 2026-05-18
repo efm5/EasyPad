@@ -13,7 +13,7 @@ if exist "A:\" (
    CD %datestr%
    mkdir %dtStamp%
    CD %dtStamp%
-   rar a -r -dh "EasyPad.rar" "D:\EasyPad\"
+   xcopy /e /c /h /k /y /i "E:\EasyPad\"
 )
 
 if exist "D:\EasyPad\Help" (
@@ -36,24 +36,12 @@ if exist "D:\EasyPad\Help" (
 )
 if exist "D:\EasyPad\EasyPad\bin\Debug\net10.0-windows7.0" (
    CD /D "D:\EasyPad\EasyPad\bin\Debug\net10.0-windows7.0"
-   if exist "D:\aaaa speech productivity\7 Core\ExternalColorPicker\ExternalColorPicker\bin\Debug" (
-      xcopy /c /h /k /y "D:\aaaa speech productivity\7 Core\ExternalColorPicker\ExternalColorPicker\bin\Debug\*.*"
-   )
-   if exist "D:\aaaa speech productivity\7 Core\ExternalFontPicker\bin\Debug" (
-      xcopy /c /h /k /y "D:\aaaa speech productivity\7 Core\ExternalFontPicker\bin\Debug\*.*"
-   )
    if exist "D:\EasyPad\EasyPadCleaner\EasyPadCleaner\bin\Debug\net10.0-windows7.0" (
       xcopy /c /h /k /y "D:\EasyPad\EasyPadCleaner\EasyPadCleaner\bin\Debug\net10.0-windows7.0\*.*"
    )
 )
 if exist "D:\EasyPad\EasyPad\bin\Release\net10.0-windows7.0" (
    CD /D "D:\EasyPad\EasyPad\bin\Release\net10.0-windows7.0"
-   if exist "D:\aaaa speech productivity\7 Core\ExternalColorPicker\ExternalColorPicker\bin\Release" (
-      xcopy /c /h /k /y "D:\aaaa speech productivity\7 Core\ExternalColorPicker\ExternalColorPicker\bin\Release\*.*"
-   )
-   if exist "D:\aaaa speech productivity\7 Core\ExternalFontPicker\bin\Release" (
-      xcopy /c /h /k /y "D:\aaaa speech productivity\7 Core\ExternalFontPicker\bin\Release\*.*"
-   )
    if exist "D:\EasyPad\EasyPadCleaner\EasyPadCleaner\bin\Release\net10.0-windows7.0" (
       xcopy /c /h /k /y "D:\EasyPad\EasyPadCleaner\EasyPadCleaner\bin\Release\net10.0-windows7.0\*.*"
    )

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Public domain; open source (source available on request)")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("An easy to use plain test editor")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ce1858b44088a394e1d0f4d8883a801113a7181")]
 [assembly: System.Reflection.AssemblyProductAttribute("EasyPad")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EasyPad")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2.0.0.0")]

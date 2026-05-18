@@ -128,22 +128,10 @@
          textFontColorTSMI = new ToolStripMenuItem();
          textBackgroundColorTSMI = new ToolStripMenuItem();
          toolStripSeparator13 = new ToolStripSeparator();
-         xFontPickersTSMI = new ToolStripMenuItem();
-         xInterfaceFontTSMI = new ToolStripMenuItem();
-         toolStripSeparator15 = new ToolStripSeparator();
-         xTextFontTSMI = new ToolStripMenuItem();
-         xMonospacedTextBoxFontTSMI = new ToolStripMenuItem();
-         xColorPickersTSMI = new ToolStripMenuItem();
-         xInterfaceFontColorTSMI = new ToolStripMenuItem();
-         xInterfaceBackgroundColorTSMI = new ToolStripMenuItem();
-         xTextFontColorTSMI = new ToolStripMenuItem();
-         xTextBackgroundColorTSMI = new ToolStripMenuItem();
-         xStatusStripBackgroundColorTSMI = new ToolStripMenuItem();
-         xDialogBackgroundColorTSMI = new ToolStripMenuItem();
          toolStripSeparator14 = new ToolStripSeparator();
          statusStripBackgroundColorTSMI = new ToolStripMenuItem();
          dialogBackgroundColorTSMI = new ToolStripMenuItem();
-         toolStripSeparator17 = new ToolStripSeparator();
+         toolStripSeparator15 = new ToolStripSeparator();
          recentFilesHistoryLimitTSMI = new ToolStripMenuItem();
          fontSizesTSMI = new ToolStripMenuItem();
          interfaceFontSizeTSMI = new ToolStripMenuItem();
@@ -348,7 +336,7 @@
          menuStrip.Items.AddRange(new ToolStripItem[] { fileTSMI, editTSMI, viewTSMI, optionsTSMI, helpTSMI });
          menuStrip.Location = new Point(0, 0);
          menuStrip.Name = "menuStrip";
-         menuStrip.Size = new Size(2375, 46);
+         menuStrip.Size = new Size(2375, 45);
          menuStrip.TabIndex = 1000;
          menuStrip.Text = "menuStrip1";
          // 
@@ -357,7 +345,7 @@
          fileTSMI.DropDownItems.AddRange(new ToolStripItem[] { newTSMI, newWindowTSMI, openTSMI, openRecentTSMI, saveTSMI, saveAsTSMI, saveAndExitTSMI, toolStripSeparator1, pageSetUpTSMI, printTSMI, toolStripSeparator2, exitTSMI });
          fileTSMI.Name = "fileTSMI";
          fileTSMI.Overflow = ToolStripItemOverflow.AsNeeded;
-         fileTSMI.Size = new Size(93, 42);
+         fileTSMI.Size = new Size(70, 41);
          fileTSMI.Text = "&File";
          // 
          // newTSMI
@@ -365,7 +353,7 @@
          newTSMI.Image = (Image)resources.GetObject("newTSMI.Image");
          newTSMI.Name = "newTSMI";
          newTSMI.ShortcutKeys = Keys.Control | Keys.N;
-         newTSMI.Size = new Size(463, 42);
+         newTSMI.Size = new Size(422, 42);
          newTSMI.Text = "New";
          newTSMI.Click += NewTSMI_Click;
          // 
@@ -373,7 +361,7 @@
          // 
          newWindowTSMI.Name = "newWindowTSMI";
          newWindowTSMI.ShortcutKeys = Keys.Control | Keys.Shift | Keys.N;
-         newWindowTSMI.Size = new Size(463, 42);
+         newWindowTSMI.Size = new Size(422, 42);
          newWindowTSMI.Text = "New Window";
          newWindowTSMI.Click += NewWindowTSMI_Click;
          // 
@@ -382,14 +370,14 @@
          openTSMI.Image = (Image)resources.GetObject("openTSMI.Image");
          openTSMI.Name = "openTSMI";
          openTSMI.ShortcutKeys = Keys.Control | Keys.O;
-         openTSMI.Size = new Size(463, 42);
+         openTSMI.Size = new Size(422, 42);
          openTSMI.Text = "Open…";
          openTSMI.Click += OpenTSMI_Click;
          // 
          // openRecentTSMI
          // 
          openRecentTSMI.Name = "openRecentTSMI";
-         openRecentTSMI.Size = new Size(463, 42);
+         openRecentTSMI.Size = new Size(422, 42);
          openRecentTSMI.Text = "&Recent";
          // 
          // saveTSMI
@@ -397,7 +385,7 @@
          saveTSMI.Image = (Image)resources.GetObject("saveTSMI.Image");
          saveTSMI.Name = "saveTSMI";
          saveTSMI.ShortcutKeys = Keys.Control | Keys.S;
-         saveTSMI.Size = new Size(463, 42);
+         saveTSMI.Size = new Size(422, 42);
          saveTSMI.Text = "Save";
          saveTSMI.Click += SaveTSMI_Click;
          // 
@@ -406,7 +394,7 @@
          saveAsTSMI.Image = Properties.Resources.saveAs;
          saveAsTSMI.Name = "saveAsTSMI";
          saveAsTSMI.ShortcutKeys = Keys.Control | Keys.Shift | Keys.S;
-         saveAsTSMI.Size = new Size(463, 42);
+         saveAsTSMI.Size = new Size(422, 42);
          saveAsTSMI.Text = "Save As…";
          saveAsTSMI.Click += SaveAsTSMI_Click;
          // 
@@ -414,20 +402,20 @@
          // 
          saveAndExitTSMI.Name = "saveAndExitTSMI";
          saveAndExitTSMI.ShortcutKeys = Keys.Shift | Keys.F4;
-         saveAndExitTSMI.Size = new Size(463, 42);
+         saveAndExitTSMI.Size = new Size(422, 42);
          saveAndExitTSMI.Text = "Save And Exit";
          saveAndExitTSMI.Click += SaveAndExitTSMI_Click;
          // 
          // toolStripSeparator1
          // 
          toolStripSeparator1.Name = "toolStripSeparator1";
-         toolStripSeparator1.Size = new Size(460, 6);
+         toolStripSeparator1.Size = new Size(419, 6);
          // 
          // pageSetUpTSMI
          // 
          pageSetUpTSMI.Name = "pageSetUpTSMI";
          pageSetUpTSMI.ShortcutKeys = Keys.Control | Keys.J;
-         pageSetUpTSMI.Size = new Size(463, 42);
+         pageSetUpTSMI.Size = new Size(422, 42);
          pageSetUpTSMI.Text = "Page Set Up…";
          pageSetUpTSMI.Click += PageSetUpTSMI_Click;
          // 
@@ -436,20 +424,20 @@
          printTSMI.Image = (Image)resources.GetObject("printTSMI.Image");
          printTSMI.Name = "printTSMI";
          printTSMI.ShortcutKeys = Keys.Control | Keys.P;
-         printTSMI.Size = new Size(463, 42);
+         printTSMI.Size = new Size(422, 42);
          printTSMI.Text = "Print…";
          printTSMI.Click += PrintTSMI_Click;
          // 
          // toolStripSeparator2
          // 
          toolStripSeparator2.Name = "toolStripSeparator2";
-         toolStripSeparator2.Size = new Size(460, 6);
+         toolStripSeparator2.Size = new Size(419, 6);
          // 
          // exitTSMI
          // 
          exitTSMI.Name = "exitTSMI";
          exitTSMI.ShortcutKeys = Keys.Alt | Keys.F4;
-         exitTSMI.Size = new Size(463, 42);
+         exitTSMI.Size = new Size(422, 42);
          exitTSMI.Text = "Exit";
          exitTSMI.Click += ExitTSMI_Click;
          // 
@@ -458,14 +446,14 @@
          editTSMI.DropDownItems.AddRange(new ToolStripItem[] { undoTSMI, redoTSMI, toolStripSeparator5, cutTSMI, toolStripSeparator8, copyTSMI, editCopyAllTSMI, editCopyToBeginningTSMI, editCopyToEndTSMI, toolStripSeparator9, pasteTSMI, deleteTSMI, trimToBeginningTSMI, trimToEndTSMI, toolStripSeparator3, searchWithTSMI, findTSMI, findNextTSMI, findPreviousTSMI, replaceTSMI, toolStripSeparator19, lineEndingsTSMI, goToTSMI, toolStripSeparator4, selectAllTSMI, selectNoneTSMI });
          editTSMI.Name = "editTSMI";
          editTSMI.Overflow = ToolStripItemOverflow.AsNeeded;
-         editTSMI.Size = new Size(93, 42);
+         editTSMI.Size = new Size(75, 41);
          editTSMI.Text = "&Edit";
          // 
          // undoTSMI
          // 
          undoTSMI.Name = "undoTSMI";
          undoTSMI.ShortcutKeys = Keys.Control | Keys.Z;
-         undoTSMI.Size = new Size(623, 42);
+         undoTSMI.Size = new Size(537, 42);
          undoTSMI.Text = "Undo";
          undoTSMI.Click += UndoTSMI_Click;
          // 
@@ -473,35 +461,35 @@
          // 
          redoTSMI.Name = "redoTSMI";
          redoTSMI.ShortcutKeys = Keys.Control | Keys.Y;
-         redoTSMI.Size = new Size(623, 42);
+         redoTSMI.Size = new Size(537, 42);
          redoTSMI.Text = "Redo";
          redoTSMI.Click += RedoTSMI_Click;
          // 
          // toolStripSeparator5
          // 
          toolStripSeparator5.Name = "toolStripSeparator5";
-         toolStripSeparator5.Size = new Size(620, 6);
+         toolStripSeparator5.Size = new Size(534, 6);
          // 
          // cutTSMI
          // 
          cutTSMI.Image = (Image)resources.GetObject("cutTSMI.Image");
          cutTSMI.Name = "cutTSMI";
          cutTSMI.ShortcutKeys = Keys.Control | Keys.X;
-         cutTSMI.Size = new Size(623, 42);
+         cutTSMI.Size = new Size(537, 42);
          cutTSMI.Text = "Cut";
          cutTSMI.Click += CutTSMI_Click;
          // 
          // toolStripSeparator8
          // 
          toolStripSeparator8.Name = "toolStripSeparator8";
-         toolStripSeparator8.Size = new Size(620, 6);
+         toolStripSeparator8.Size = new Size(534, 6);
          // 
          // copyTSMI
          // 
          copyTSMI.Image = (Image)resources.GetObject("copyTSMI.Image");
          copyTSMI.Name = "copyTSMI";
          copyTSMI.ShortcutKeys = Keys.Control | Keys.C;
-         copyTSMI.Size = new Size(623, 42);
+         copyTSMI.Size = new Size(537, 42);
          copyTSMI.Text = "Copy";
          copyTSMI.Click += CopyTSMI_Click;
          // 
@@ -509,7 +497,7 @@
          // 
          editCopyAllTSMI.Name = "editCopyAllTSMI";
          editCopyAllTSMI.ShortcutKeys = Keys.Control | Keys.Shift | Keys.C;
-         editCopyAllTSMI.Size = new Size(623, 42);
+         editCopyAllTSMI.Size = new Size(537, 42);
          editCopyAllTSMI.Text = "Copy All";
          editCopyAllTSMI.Click += EditCopyAllTSMI_Click;
          // 
@@ -517,7 +505,7 @@
          // 
          editCopyToBeginningTSMI.Name = "editCopyToBeginningTSMI";
          editCopyToBeginningTSMI.ShortcutKeys = Keys.Control | Keys.Shift | Keys.Home;
-         editCopyToBeginningTSMI.Size = new Size(623, 42);
+         editCopyToBeginningTSMI.Size = new Size(537, 42);
          editCopyToBeginningTSMI.Text = "Copy To Beginning";
          editCopyToBeginningTSMI.Click += EditCopyToBeginningTSMI_Click;
          // 
@@ -525,21 +513,21 @@
          // 
          editCopyToEndTSMI.Name = "editCopyToEndTSMI";
          editCopyToEndTSMI.ShortcutKeys = Keys.Control | Keys.Shift | Keys.End;
-         editCopyToEndTSMI.Size = new Size(623, 42);
+         editCopyToEndTSMI.Size = new Size(537, 42);
          editCopyToEndTSMI.Text = "Copy To End";
          editCopyToEndTSMI.Click += EditCopyToEndTSMI_Click;
          // 
          // toolStripSeparator9
          // 
          toolStripSeparator9.Name = "toolStripSeparator9";
-         toolStripSeparator9.Size = new Size(620, 6);
+         toolStripSeparator9.Size = new Size(534, 6);
          // 
          // pasteTSMI
          // 
          pasteTSMI.Image = (Image)resources.GetObject("pasteTSMI.Image");
          pasteTSMI.Name = "pasteTSMI";
          pasteTSMI.ShortcutKeys = Keys.Control | Keys.V;
-         pasteTSMI.Size = new Size(623, 42);
+         pasteTSMI.Size = new Size(537, 42);
          pasteTSMI.Text = "Paste";
          pasteTSMI.Click += PasteTSMI_Click;
          // 
@@ -547,7 +535,7 @@
          // 
          deleteTSMI.Name = "deleteTSMI";
          deleteTSMI.ShortcutKeys = Keys.Delete;
-         deleteTSMI.Size = new Size(623, 42);
+         deleteTSMI.Size = new Size(537, 42);
          deleteTSMI.Text = "Delete";
          deleteTSMI.Click += DeleteTSMI_Click;
          // 
@@ -556,7 +544,7 @@
          trimToBeginningTSMI.Image = Properties.Resources.trimBeginning;
          trimToBeginningTSMI.Name = "trimToBeginningTSMI";
          trimToBeginningTSMI.ShortcutKeys = Keys.Control | Keys.Shift | Keys.Delete;
-         trimToBeginningTSMI.Size = new Size(623, 42);
+         trimToBeginningTSMI.Size = new Size(537, 42);
          trimToBeginningTSMI.Text = "Trim To Beginning";
          trimToBeginningTSMI.Click += TrimToBeginningTSMI_Click;
          // 
@@ -565,20 +553,20 @@
          trimToEndTSMI.Image = Properties.Resources.trimEnd;
          trimToEndTSMI.Name = "trimToEndTSMI";
          trimToEndTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Delete;
-         trimToEndTSMI.Size = new Size(623, 42);
+         trimToEndTSMI.Size = new Size(537, 42);
          trimToEndTSMI.Text = "Trim To End";
          trimToEndTSMI.Click += TrimToEndTSMI_Click;
          // 
          // toolStripSeparator3
          // 
          toolStripSeparator3.Name = "toolStripSeparator3";
-         toolStripSeparator3.Size = new Size(620, 6);
+         toolStripSeparator3.Size = new Size(534, 6);
          // 
          // searchWithTSMI
          // 
          searchWithTSMI.Name = "searchWithTSMI";
          searchWithTSMI.ShortcutKeys = Keys.Control | Keys.E;
-         searchWithTSMI.Size = new Size(623, 42);
+         searchWithTSMI.Size = new Size(537, 42);
          searchWithTSMI.Text = "Search With Google…";
          searchWithTSMI.Click += SearchWithTSMI_Click;
          // 
@@ -586,7 +574,7 @@
          // 
          findTSMI.Name = "findTSMI";
          findTSMI.ShortcutKeys = Keys.Control | Keys.F;
-         findTSMI.Size = new Size(623, 42);
+         findTSMI.Size = new Size(537, 42);
          findTSMI.Text = "Find…";
          findTSMI.Click += FindTSMI_Click;
          // 
@@ -594,7 +582,7 @@
          // 
          findNextTSMI.Name = "findNextTSMI";
          findNextTSMI.ShortcutKeys = Keys.F3;
-         findNextTSMI.Size = new Size(623, 42);
+         findNextTSMI.Size = new Size(537, 42);
          findNextTSMI.Text = "Find Next";
          findNextTSMI.Click += FindNextTSMI_Click;
          // 
@@ -602,7 +590,7 @@
          // 
          findPreviousTSMI.Name = "findPreviousTSMI";
          findPreviousTSMI.ShortcutKeys = Keys.Shift | Keys.F3;
-         findPreviousTSMI.Size = new Size(623, 42);
+         findPreviousTSMI.Size = new Size(537, 42);
          findPreviousTSMI.Text = "Find Previous";
          findPreviousTSMI.Click += FindPreviousTSMI_Click;
          // 
@@ -610,27 +598,27 @@
          // 
          replaceTSMI.Name = "replaceTSMI";
          replaceTSMI.ShortcutKeys = Keys.Control | Keys.H;
-         replaceTSMI.Size = new Size(623, 42);
+         replaceTSMI.Size = new Size(537, 42);
          replaceTSMI.Text = "Replace…";
          replaceTSMI.Click += ReplaceTSMI_Click;
          // 
          // toolStripSeparator19
          // 
          toolStripSeparator19.Name = "toolStripSeparator19";
-         toolStripSeparator19.Size = new Size(620, 6);
+         toolStripSeparator19.Size = new Size(534, 6);
          // 
          // lineEndingsTSMI
          // 
          lineEndingsTSMI.DropDownItems.AddRange(new ToolStripItem[] { nn2RNTSMI, n2RNTSMI, nR2RNTSMI, rN2NNTSMI, rN2RNRNTSMI });
          lineEndingsTSMI.Name = "lineEndingsTSMI";
-         lineEndingsTSMI.Size = new Size(623, 42);
+         lineEndingsTSMI.Size = new Size(537, 42);
          lineEndingsTSMI.Text = "Line Endings";
          // 
          // nn2RNTSMI
          // 
          nn2RNTSMI.Name = "nn2RNTSMI";
          nn2RNTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.D2;
-         nn2RNTSMI.Size = new Size(623, 42);
+         nn2RNTSMI.Size = new Size(481, 42);
          nn2RNTSMI.Text = "“\\n\\n” to “\\r\\n”";
          nn2RNTSMI.Click += Nn2RNTSMI_Click;
          // 
@@ -638,7 +626,7 @@
          // 
          n2RNTSMI.Name = "n2RNTSMI";
          n2RNTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.D3;
-         n2RNTSMI.Size = new Size(623, 42);
+         n2RNTSMI.Size = new Size(481, 42);
          n2RNTSMI.Text = "“\\n” to “\\r\\n”";
          n2RNTSMI.Click += N2RNTSMI_Click;
          // 
@@ -646,7 +634,7 @@
          // 
          nR2RNTSMI.Name = "nR2RNTSMI";
          nR2RNTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.D4;
-         nR2RNTSMI.Size = new Size(623, 42);
+         nR2RNTSMI.Size = new Size(481, 42);
          nR2RNTSMI.Text = "“\\n\\r” to “\\r\\n”";
          nR2RNTSMI.Click += NR2RNTSMI_Click;
          // 
@@ -654,7 +642,7 @@
          // 
          rN2NNTSMI.Name = "rN2NNTSMI";
          rN2NNTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.D5;
-         rN2NNTSMI.Size = new Size(623, 42);
+         rN2NNTSMI.Size = new Size(481, 42);
          rN2NNTSMI.Text = "“\\r\\n” to “\\n\\n”";
          rN2NNTSMI.Click += RN2NNTSMI_Click;
          // 
@@ -662,7 +650,7 @@
          // 
          rN2RNRNTSMI.Name = "rN2RNRNTSMI";
          rN2RNRNTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.D6;
-         rN2RNRNTSMI.Size = new Size(623, 42);
+         rN2RNRNTSMI.Size = new Size(481, 42);
          rN2RNRNTSMI.Text = "Double Space";
          rN2RNRNTSMI.Click += RN2RNRNTSMI_Click;
          // 
@@ -670,20 +658,20 @@
          // 
          goToTSMI.Name = "goToTSMI";
          goToTSMI.ShortcutKeys = Keys.Control | Keys.G;
-         goToTSMI.Size = new Size(623, 42);
+         goToTSMI.Size = new Size(537, 42);
          goToTSMI.Text = "Go To…";
          goToTSMI.Click += GoToTSMI_Click;
          // 
          // toolStripSeparator4
          // 
          toolStripSeparator4.Name = "toolStripSeparator4";
-         toolStripSeparator4.Size = new Size(620, 6);
+         toolStripSeparator4.Size = new Size(534, 6);
          // 
          // selectAllTSMI
          // 
          selectAllTSMI.Name = "selectAllTSMI";
          selectAllTSMI.ShortcutKeys = Keys.Control | Keys.A;
-         selectAllTSMI.Size = new Size(623, 42);
+         selectAllTSMI.Size = new Size(537, 42);
          selectAllTSMI.Text = "Select All";
          selectAllTSMI.Click += SelectAllTSMI_Click;
          // 
@@ -691,7 +679,7 @@
          // 
          selectNoneTSMI.Name = "selectNoneTSMI";
          selectNoneTSMI.ShortcutKeys = Keys.Control | Keys.Shift | Keys.A;
-         selectNoneTSMI.Size = new Size(623, 42);
+         selectNoneTSMI.Size = new Size(537, 42);
          selectNoneTSMI.Text = "Select None";
          selectNoneTSMI.Click += SelectNoneTSMI_Click;
          // 
@@ -700,7 +688,7 @@
          viewTSMI.DropDownItems.AddRange(new ToolStripItem[] { wordWrapTSMI, alwaysOnTopTSMI, fadeInTSMI, toolStripSeparator6, zoomInTSMI, zoomOutTSMI, zoomDefaultTSMI, toolStripSeparator22, scrollWheelTSMI, toolStripSeparator7, opacityTSMI, toolStripSeparator10, showStatusBarTSMI, toolBarTSMI, themesTSMI });
          viewTSMI.Name = "viewTSMI";
          viewTSMI.Overflow = ToolStripItemOverflow.AsNeeded;
-         viewTSMI.Size = new Size(93, 42);
+         viewTSMI.Size = new Size(87, 41);
          viewTSMI.Text = "&View";
          // 
          // wordWrapTSMI
@@ -710,7 +698,7 @@
          wordWrapTSMI.CheckState = CheckState.Checked;
          wordWrapTSMI.Name = "wordWrapTSMI";
          wordWrapTSMI.ShortcutKeys = Keys.Control | Keys.W;
-         wordWrapTSMI.Size = new Size(605, 42);
+         wordWrapTSMI.Size = new Size(445, 42);
          wordWrapTSMI.Text = "&Word Wrap";
          wordWrapTSMI.Click += WordWrapTSMI_Click;
          // 
@@ -721,7 +709,7 @@
          alwaysOnTopTSMI.CheckState = CheckState.Checked;
          alwaysOnTopTSMI.Name = "alwaysOnTopTSMI";
          alwaysOnTopTSMI.ShortcutKeys = Keys.Control | Keys.Shift | Keys.T;
-         alwaysOnTopTSMI.Size = new Size(605, 42);
+         alwaysOnTopTSMI.Size = new Size(445, 42);
          alwaysOnTopTSMI.Text = "&Always On Top";
          alwaysOnTopTSMI.Click += AlwaysOnTopTSMI_Click;
          // 
@@ -732,20 +720,20 @@
          fadeInTSMI.CheckState = CheckState.Checked;
          fadeInTSMI.Name = "fadeInTSMI";
          fadeInTSMI.ShortcutKeys = Keys.Control | Keys.I;
-         fadeInTSMI.Size = new Size(605, 42);
+         fadeInTSMI.Size = new Size(445, 42);
          fadeInTSMI.Text = "&Fade In";
          // 
          // toolStripSeparator6
          // 
          toolStripSeparator6.Name = "toolStripSeparator6";
-         toolStripSeparator6.Size = new Size(602, 6);
+         toolStripSeparator6.Size = new Size(442, 6);
          // 
          // zoomInTSMI
          // 
          zoomInTSMI.Name = "zoomInTSMI";
          zoomInTSMI.ShortcutKeys = Keys.Control | Keys.Oemplus;
          zoomInTSMI.ShowShortcutKeys = false;
-         zoomInTSMI.Size = new Size(605, 42);
+         zoomInTSMI.Size = new Size(445, 42);
          zoomInTSMI.Text = "Zoom &In        Ctrl++";
          zoomInTSMI.Click += ZoomInTSMI_Click;
          // 
@@ -754,7 +742,7 @@
          zoomOutTSMI.Name = "zoomOutTSMI";
          zoomOutTSMI.ShortcutKeys = Keys.Control | Keys.OemMinus;
          zoomOutTSMI.ShowShortcutKeys = false;
-         zoomOutTSMI.Size = new Size(605, 42);
+         zoomOutTSMI.Size = new Size(445, 42);
          zoomOutTSMI.Text = "Zoom &Out        Ctrl+-";
          zoomOutTSMI.Click += ZoomOutTSMI_Click;
          // 
@@ -763,27 +751,27 @@
          zoomDefaultTSMI.Name = "zoomDefaultTSMI";
          zoomDefaultTSMI.ShortcutKeys = Keys.Control | Keys.D0;
          zoomDefaultTSMI.ShowShortcutKeys = false;
-         zoomDefaultTSMI.Size = new Size(605, 42);
+         zoomDefaultTSMI.Size = new Size(445, 42);
          zoomDefaultTSMI.Text = "Zoom &Default        Ctrl+0 (zero)";
          zoomDefaultTSMI.Click += ZoomDefaultTSMI_Click;
          // 
          // toolStripSeparator22
          // 
          toolStripSeparator22.Name = "toolStripSeparator22";
-         toolStripSeparator22.Size = new Size(602, 6);
+         toolStripSeparator22.Size = new Size(442, 6);
          // 
          // scrollWheelTSMI
          // 
          scrollWheelTSMI.DropDownItems.AddRange(new ToolStripItem[] { scrollUpTSMI, scrollDownTSMI, toolStripSeparator23, scrollFasterTSMI, scrollSlowerTSMI, scrollVelocityTSMI, toolStripSeparator24, scrollQuitTSMI });
          scrollWheelTSMI.Name = "scrollWheelTSMI";
-         scrollWheelTSMI.Size = new Size(605, 42);
+         scrollWheelTSMI.Size = new Size(445, 42);
          scrollWheelTSMI.Text = "&Wheel";
          // 
          // scrollUpTSMI
          // 
          scrollUpTSMI.CheckOnClick = true;
          scrollUpTSMI.Name = "scrollUpTSMI";
-         scrollUpTSMI.Size = new Size(318, 42);
+         scrollUpTSMI.Size = new Size(255, 42);
          scrollUpTSMI.Text = "&Up";
          scrollUpTSMI.Click += ScrollUpTSMI_Click;
          // 
@@ -791,65 +779,65 @@
          // 
          scrollDownTSMI.CheckOnClick = true;
          scrollDownTSMI.Name = "scrollDownTSMI";
-         scrollDownTSMI.Size = new Size(318, 42);
+         scrollDownTSMI.Size = new Size(255, 42);
          scrollDownTSMI.Text = "&Down";
          scrollDownTSMI.Click += ScrollDownTSMI_Click;
          // 
          // toolStripSeparator23
          // 
          toolStripSeparator23.Name = "toolStripSeparator23";
-         toolStripSeparator23.Size = new Size(315, 6);
+         toolStripSeparator23.Size = new Size(252, 6);
          // 
          // scrollFasterTSMI
          // 
          scrollFasterTSMI.Name = "scrollFasterTSMI";
-         scrollFasterTSMI.Size = new Size(318, 42);
+         scrollFasterTSMI.Size = new Size(255, 42);
          scrollFasterTSMI.Text = "&Faster";
          scrollFasterTSMI.Click += ScrollFasterTSMI_Click;
          // 
          // scrollSlowerTSMI
          // 
          scrollSlowerTSMI.Name = "scrollSlowerTSMI";
-         scrollSlowerTSMI.Size = new Size(318, 42);
+         scrollSlowerTSMI.Size = new Size(255, 42);
          scrollSlowerTSMI.Text = "&Slower";
          scrollSlowerTSMI.Click += ScrollSlowerTSMI_Click;
          // 
          // scrollVelocityTSMI
          // 
          scrollVelocityTSMI.Name = "scrollVelocityTSMI";
-         scrollVelocityTSMI.Size = new Size(318, 42);
+         scrollVelocityTSMI.Size = new Size(255, 42);
          scrollVelocityTSMI.Text = "&Velocity…";
          scrollVelocityTSMI.Click += ScrollVelocityTSMI_Click;
          // 
          // toolStripSeparator24
          // 
          toolStripSeparator24.Name = "toolStripSeparator24";
-         toolStripSeparator24.Size = new Size(315, 6);
+         toolStripSeparator24.Size = new Size(252, 6);
          // 
          // scrollQuitTSMI
          // 
          scrollQuitTSMI.Name = "scrollQuitTSMI";
-         scrollQuitTSMI.Size = new Size(318, 42);
+         scrollQuitTSMI.Size = new Size(255, 42);
          scrollQuitTSMI.Text = "&Quit Scrolling";
          scrollQuitTSMI.Click += ScrollQuitTSMI_Click;
          // 
          // toolStripSeparator7
          // 
          toolStripSeparator7.Name = "toolStripSeparator7";
-         toolStripSeparator7.Size = new Size(602, 6);
+         toolStripSeparator7.Size = new Size(442, 6);
          // 
          // opacityTSMI
          // 
          opacityTSMI.DropDownItems.AddRange(new ToolStripItem[] { thirtyOpacityTSMI, fiftyOpacityTSMI, seventyFiveopacityTSMI, opaqueOpacityTSMI });
          opacityTSMI.Name = "opacityTSMI";
-         opacityTSMI.Size = new Size(605, 42);
+         opacityTSMI.Size = new Size(445, 42);
          opacityTSMI.Text = "&Opacity";
          // 
          // thirtyOpacityTSMI
          // 
          thirtyOpacityTSMI.Name = "thirtyOpacityTSMI";
          thirtyOpacityTSMI.ShortcutKeys = Keys.Control | Keys.Shift | Keys.D3;
-         thirtyOpacityTSMI.Size = new Size(399, 42);
+         thirtyOpacityTSMI.Size = new Size(352, 42);
          thirtyOpacityTSMI.Tag = ".3";
          thirtyOpacityTSMI.Text = "&30%";
          thirtyOpacityTSMI.Click += SetOpacityTSMI_Click;
@@ -858,7 +846,7 @@
          // 
          fiftyOpacityTSMI.Name = "fiftyOpacityTSMI";
          fiftyOpacityTSMI.ShortcutKeys = Keys.Control | Keys.Shift | Keys.D5;
-         fiftyOpacityTSMI.Size = new Size(399, 42);
+         fiftyOpacityTSMI.Size = new Size(352, 42);
          fiftyOpacityTSMI.Tag = ".5";
          fiftyOpacityTSMI.Text = "&50%";
          fiftyOpacityTSMI.Click += SetOpacityTSMI_Click;
@@ -867,7 +855,7 @@
          // 
          seventyFiveopacityTSMI.Name = "seventyFiveopacityTSMI";
          seventyFiveopacityTSMI.ShortcutKeys = Keys.Control | Keys.Shift | Keys.D7;
-         seventyFiveopacityTSMI.Size = new Size(399, 42);
+         seventyFiveopacityTSMI.Size = new Size(352, 42);
          seventyFiveopacityTSMI.Tag = ".75";
          seventyFiveopacityTSMI.Text = "&75%";
          seventyFiveopacityTSMI.Click += SetOpacityTSMI_Click;
@@ -876,7 +864,7 @@
          // 
          opaqueOpacityTSMI.Name = "opaqueOpacityTSMI";
          opaqueOpacityTSMI.ShortcutKeys = Keys.Control | Keys.Shift | Keys.D1;
-         opaqueOpacityTSMI.Size = new Size(399, 42);
+         opaqueOpacityTSMI.Size = new Size(352, 42);
          opaqueOpacityTSMI.Tag = "1";
          opaqueOpacityTSMI.Text = "&Opaque";
          opaqueOpacityTSMI.Click += SetOpacityTSMI_Click;
@@ -884,7 +872,7 @@
          // toolStripSeparator10
          // 
          toolStripSeparator10.Name = "toolStripSeparator10";
-         toolStripSeparator10.Size = new Size(602, 6);
+         toolStripSeparator10.Size = new Size(442, 6);
          // 
          // showStatusBarTSMI
          // 
@@ -893,7 +881,7 @@
          showStatusBarTSMI.CheckState = CheckState.Checked;
          showStatusBarTSMI.Name = "showStatusBarTSMI";
          showStatusBarTSMI.ShortcutKeys = Keys.Control | Keys.B;
-         showStatusBarTSMI.Size = new Size(605, 42);
+         showStatusBarTSMI.Size = new Size(445, 42);
          showStatusBarTSMI.Text = "&Status Bar";
          showStatusBarTSMI.Click += ShowStatusBarTSMI_Click;
          // 
@@ -901,7 +889,7 @@
          // 
          toolBarTSMI.DropDownItems.AddRange(new ToolStripItem[] { showToolBarTSMI, toolBarShowToolsTSMI, toolBarShowScrollersTSMI, toolBarLocationSectionTSMI, toolBarTopTSMI, toolBarBottomTSMI, toolBarLeftTSMI, toolBarRightTSMI, toolBarSizeSectionTSMI, toolBarSize16TSMI, toolBarSize24TSMI, toolBarSize32TSMI, toolBarSize64TSMI, toolBarSize128TSMI });
          toolBarTSMI.Name = "toolBarTSMI";
-         toolBarTSMI.Size = new Size(605, 42);
+         toolBarTSMI.Size = new Size(445, 42);
          toolBarTSMI.Text = "Tool &Bar";
          // 
          // showToolBarTSMI
@@ -911,7 +899,7 @@
          showToolBarTSMI.CheckState = CheckState.Checked;
          showToolBarTSMI.Name = "showToolBarTSMI";
          showToolBarTSMI.ShortcutKeys = Keys.Control | Keys.K;
-         showToolBarTSMI.Size = new Size(510, 42);
+         showToolBarTSMI.Size = new Size(398, 42);
          showToolBarTSMI.Text = "Show Toolbar";
          showToolBarTSMI.Click += ShowToolBarTSMI_Click;
          // 
@@ -919,7 +907,7 @@
          // 
          toolBarShowToolsTSMI.CheckOnClick = true;
          toolBarShowToolsTSMI.Name = "toolBarShowToolsTSMI";
-         toolBarShowToolsTSMI.Size = new Size(510, 42);
+         toolBarShowToolsTSMI.Size = new Size(398, 42);
          toolBarShowToolsTSMI.Text = "Show Tools";
          toolBarShowToolsTSMI.Click += ToolBarShowToolsTSMI_Click;
          // 
@@ -927,7 +915,7 @@
          // 
          toolBarShowScrollersTSMI.CheckOnClick = true;
          toolBarShowScrollersTSMI.Name = "toolBarShowScrollersTSMI";
-         toolBarShowScrollersTSMI.Size = new Size(510, 42);
+         toolBarShowScrollersTSMI.Size = new Size(398, 42);
          toolBarShowScrollersTSMI.Text = "Show Scroll Buttons";
          toolBarShowScrollersTSMI.Click += ToolBarShowScrollersTSMI_Click;
          // 
@@ -936,7 +924,7 @@
          toolBarLocationSectionTSMI.BackColor = SystemColors.GradientInactiveCaption;
          toolBarLocationSectionTSMI.Enabled = false;
          toolBarLocationSectionTSMI.Name = "toolBarLocationSectionTSMI";
-         toolBarLocationSectionTSMI.Size = new Size(510, 42);
+         toolBarLocationSectionTSMI.Size = new Size(398, 42);
          toolBarLocationSectionTSMI.Text = "Tool Bar Location Section:";
          // 
          // toolBarTopTSMI
@@ -945,7 +933,7 @@
          toolBarTopTSMI.CheckState = CheckState.Checked;
          toolBarTopTSMI.Name = "toolBarTopTSMI";
          toolBarTopTSMI.ShortcutKeys = Keys.Control | Keys.U;
-         toolBarTopTSMI.Size = new Size(510, 42);
+         toolBarTopTSMI.Size = new Size(398, 42);
          toolBarTopTSMI.Tag = ToolBarLocation.Top;
          toolBarTopTSMI.Text = "&Top";
          toolBarTopTSMI.Click += ToolBarLocation_Click;
@@ -954,7 +942,7 @@
          // 
          toolBarBottomTSMI.Name = "toolBarBottomTSMI";
          toolBarBottomTSMI.ShortcutKeys = Keys.Control | Keys.M;
-         toolBarBottomTSMI.Size = new Size(510, 42);
+         toolBarBottomTSMI.Size = new Size(398, 42);
          toolBarBottomTSMI.Tag = ToolBarLocation.Bottom;
          toolBarBottomTSMI.Text = "&Bottom";
          toolBarBottomTSMI.Click += ToolBarLocation_Click;
@@ -963,7 +951,7 @@
          // 
          toolBarLeftTSMI.Name = "toolBarLeftTSMI";
          toolBarLeftTSMI.ShortcutKeys = Keys.Control | Keys.Q;
-         toolBarLeftTSMI.Size = new Size(510, 42);
+         toolBarLeftTSMI.Size = new Size(398, 42);
          toolBarLeftTSMI.Tag = ToolBarLocation.Left;
          toolBarLeftTSMI.Text = "&Left";
          toolBarLeftTSMI.Click += ToolBarLocation_Click;
@@ -972,7 +960,7 @@
          // 
          toolBarRightTSMI.Name = "toolBarRightTSMI";
          toolBarRightTSMI.ShortcutKeys = Keys.Control | Keys.R;
-         toolBarRightTSMI.Size = new Size(510, 42);
+         toolBarRightTSMI.Size = new Size(398, 42);
          toolBarRightTSMI.Tag = ToolBarLocation.Right;
          toolBarRightTSMI.Text = "&Right";
          toolBarRightTSMI.Click += ToolBarLocation_Click;
@@ -982,14 +970,14 @@
          toolBarSizeSectionTSMI.BackColor = SystemColors.GradientInactiveCaption;
          toolBarSizeSectionTSMI.Enabled = false;
          toolBarSizeSectionTSMI.Name = "toolBarSizeSectionTSMI";
-         toolBarSizeSectionTSMI.Size = new Size(510, 42);
+         toolBarSizeSectionTSMI.Size = new Size(398, 42);
          toolBarSizeSectionTSMI.Text = "Tool Bar Size Section:";
          // 
          // toolBarSize16TSMI
          // 
          toolBarSize16TSMI.Name = "toolBarSize16TSMI";
          toolBarSize16TSMI.ShortcutKeys = Keys.Control | Keys.D1;
-         toolBarSize16TSMI.Size = new Size(510, 42);
+         toolBarSize16TSMI.Size = new Size(398, 42);
          toolBarSize16TSMI.Tag = 16;
          toolBarSize16TSMI.Text = "&16";
          toolBarSize16TSMI.Click += ToolBarSize_Click;
@@ -998,7 +986,7 @@
          // 
          toolBarSize24TSMI.Name = "toolBarSize24TSMI";
          toolBarSize24TSMI.ShortcutKeys = Keys.Control | Keys.D2;
-         toolBarSize24TSMI.Size = new Size(510, 42);
+         toolBarSize24TSMI.Size = new Size(398, 42);
          toolBarSize24TSMI.Tag = 24;
          toolBarSize24TSMI.Text = "&24";
          toolBarSize24TSMI.Click += ToolBarSize_Click;
@@ -1007,7 +995,7 @@
          // 
          toolBarSize32TSMI.Name = "toolBarSize32TSMI";
          toolBarSize32TSMI.ShortcutKeys = Keys.Control | Keys.D3;
-         toolBarSize32TSMI.Size = new Size(510, 42);
+         toolBarSize32TSMI.Size = new Size(398, 42);
          toolBarSize32TSMI.Tag = 32;
          toolBarSize32TSMI.Text = "&32";
          toolBarSize32TSMI.Click += ToolBarSize_Click;
@@ -1016,7 +1004,7 @@
          // 
          toolBarSize64TSMI.Name = "toolBarSize64TSMI";
          toolBarSize64TSMI.ShortcutKeys = Keys.Control | Keys.D6;
-         toolBarSize64TSMI.Size = new Size(510, 42);
+         toolBarSize64TSMI.Size = new Size(398, 42);
          toolBarSize64TSMI.Tag = 64;
          toolBarSize64TSMI.Text = "&64";
          toolBarSize64TSMI.Click += ToolBarSize_Click;
@@ -1025,7 +1013,7 @@
          // 
          toolBarSize128TSMI.Name = "toolBarSize128TSMI";
          toolBarSize128TSMI.ShortcutKeys = Keys.Control | Keys.D8;
-         toolBarSize128TSMI.Size = new Size(510, 42);
+         toolBarSize128TSMI.Size = new Size(398, 42);
          toolBarSize128TSMI.Tag = 128;
          toolBarSize128TSMI.Text = "12&8";
          toolBarSize128TSMI.Click += ToolBarSize_Click;
@@ -1034,14 +1022,14 @@
          // 
          themesTSMI.DropDownItems.AddRange(new ToolStripItem[] { createThemeTSMI, editThemeTSMI, removeThemeTSMI, toolStripSeparator16, darkThemeTSMI, lightThemeTSMI });
          themesTSMI.Name = "themesTSMI";
-         themesTSMI.Size = new Size(605, 42);
+         themesTSMI.Size = new Size(445, 42);
          themesTSMI.Text = "&Themes";
          // 
          // createThemeTSMI
          // 
          createThemeTSMI.Name = "createThemeTSMI";
          createThemeTSMI.ShortcutKeys = Keys.Control | Keys.F1;
-         createThemeTSMI.Size = new Size(383, 42);
+         createThemeTSMI.Size = new Size(332, 42);
          createThemeTSMI.Tag = "";
          createThemeTSMI.Text = "Create";
          createThemeTSMI.Click += CreateThemeTSMI_Click;
@@ -1050,7 +1038,7 @@
          // 
          editThemeTSMI.Name = "editThemeTSMI";
          editThemeTSMI.ShortcutKeys = Keys.Control | Keys.F2;
-         editThemeTSMI.Size = new Size(383, 42);
+         editThemeTSMI.Size = new Size(332, 42);
          editThemeTSMI.Tag = "Edit";
          editThemeTSMI.Text = "Edit Theme";
          editThemeTSMI.Click += ThemePickerTSMI_Click;
@@ -1059,7 +1047,7 @@
          // 
          removeThemeTSMI.Name = "removeThemeTSMI";
          removeThemeTSMI.ShortcutKeys = Keys.Control | Keys.F3;
-         removeThemeTSMI.Size = new Size(383, 42);
+         removeThemeTSMI.Size = new Size(332, 42);
          removeThemeTSMI.Tag = "Remove";
          removeThemeTSMI.Text = "Remove";
          removeThemeTSMI.Click += ThemePickerTSMI_Click;
@@ -1067,13 +1055,13 @@
          // toolStripSeparator16
          // 
          toolStripSeparator16.Name = "toolStripSeparator16";
-         toolStripSeparator16.Size = new Size(380, 6);
+         toolStripSeparator16.Size = new Size(329, 6);
          // 
          // darkThemeTSMI
          // 
          darkThemeTSMI.Name = "darkThemeTSMI";
          darkThemeTSMI.ShortcutKeys = Keys.Control | Keys.D;
-         darkThemeTSMI.Size = new Size(383, 42);
+         darkThemeTSMI.Size = new Size(332, 42);
          darkThemeTSMI.Text = "Dark";
          darkThemeTSMI.Click += Theme_Click;
          // 
@@ -1081,23 +1069,23 @@
          // 
          lightThemeTSMI.Name = "lightThemeTSMI";
          lightThemeTSMI.ShortcutKeys = Keys.Control | Keys.L;
-         lightThemeTSMI.Size = new Size(383, 42);
+         lightThemeTSMI.Size = new Size(332, 42);
          lightThemeTSMI.Text = "Light";
          lightThemeTSMI.Click += Theme_Click;
          // 
          // optionsTSMI
          // 
-         optionsTSMI.DropDownItems.AddRange(new ToolStripItem[] { interfaceFontPickerTSMI, interfaceFontColorTSMI, interfaceBackgroundColorTSMI, toolStripSeparator12, textFontTSMI, textFontColorTSMI, textBackgroundColorTSMI, toolStripSeparator13, xFontPickersTSMI, xColorPickersTSMI, toolStripSeparator14, statusStripBackgroundColorTSMI, dialogBackgroundColorTSMI, toolStripSeparator17, recentFilesHistoryLimitTSMI, fontSizesTSMI, allIfNothingTSMI });
+         optionsTSMI.DropDownItems.AddRange(new ToolStripItem[] { interfaceFontPickerTSMI, interfaceFontColorTSMI, interfaceBackgroundColorTSMI, toolStripSeparator12, textFontTSMI, textFontColorTSMI, textBackgroundColorTSMI, toolStripSeparator13, toolStripSeparator14, statusStripBackgroundColorTSMI, dialogBackgroundColorTSMI, toolStripSeparator15, recentFilesHistoryLimitTSMI, fontSizesTSMI, allIfNothingTSMI });
          optionsTSMI.Name = "optionsTSMI";
          optionsTSMI.Overflow = ToolStripItemOverflow.AsNeeded;
-         optionsTSMI.Size = new Size(141, 42);
+         optionsTSMI.Size = new Size(123, 41);
          optionsTSMI.Text = "Opt&ions";
          // 
          // interfaceFontPickerTSMI
          // 
          interfaceFontPickerTSMI.Name = "interfaceFontPickerTSMI";
          interfaceFontPickerTSMI.ShortcutKeys = Keys.Control | Keys.Shift | Keys.F;
-         interfaceFontPickerTSMI.Size = new Size(831, 42);
+         interfaceFontPickerTSMI.Size = new Size(660, 42);
          interfaceFontPickerTSMI.Text = "Interface Font…";
          interfaceFontPickerTSMI.Click += InterfaceFontPickerTSMI_Click;
          // 
@@ -1105,7 +1093,7 @@
          // 
          interfaceFontColorTSMI.Name = "interfaceFontColorTSMI";
          interfaceFontColorTSMI.ShortcutKeys = Keys.Control | Keys.Shift | Keys.G;
-         interfaceFontColorTSMI.Size = new Size(831, 42);
+         interfaceFontColorTSMI.Size = new Size(660, 42);
          interfaceFontColorTSMI.Text = "Interface Font Color…";
          interfaceFontColorTSMI.Click += InterfaceFontColorTSMI_Click;
          // 
@@ -1113,20 +1101,20 @@
          // 
          interfaceBackgroundColorTSMI.Name = "interfaceBackgroundColorTSMI";
          interfaceBackgroundColorTSMI.ShortcutKeys = Keys.Control | Keys.Shift | Keys.B;
-         interfaceBackgroundColorTSMI.Size = new Size(831, 42);
+         interfaceBackgroundColorTSMI.Size = new Size(660, 42);
          interfaceBackgroundColorTSMI.Text = "Interface Background Color…";
          interfaceBackgroundColorTSMI.Click += InterfaceBackgroundColorTSMI_Click;
          // 
          // toolStripSeparator12
          // 
          toolStripSeparator12.Name = "toolStripSeparator12";
-         toolStripSeparator12.Size = new Size(828, 6);
+         toolStripSeparator12.Size = new Size(657, 6);
          // 
          // textFontTSMI
          // 
          textFontTSMI.Name = "textFontTSMI";
          textFontTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.F;
-         textFontTSMI.Size = new Size(831, 42);
+         textFontTSMI.Size = new Size(660, 42);
          textFontTSMI.Text = "Text Font…";
          textFontTSMI.Click += TextFontPickerTSMI_Click;
          // 
@@ -1134,7 +1122,7 @@
          // 
          textFontColorTSMI.Name = "textFontColorTSMI";
          textFontColorTSMI.ShortcutKeys = Keys.Control | Keys.Shift | Keys.H;
-         textFontColorTSMI.Size = new Size(831, 42);
+         textFontColorTSMI.Size = new Size(660, 42);
          textFontColorTSMI.Text = "Text Font Color…";
          textFontColorTSMI.Click += TextFontColorTSMI_Click;
          // 
@@ -1142,116 +1130,25 @@
          // 
          textBackgroundColorTSMI.Name = "textBackgroundColorTSMI";
          textBackgroundColorTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.B;
-         textBackgroundColorTSMI.Size = new Size(831, 42);
+         textBackgroundColorTSMI.Size = new Size(660, 42);
          textBackgroundColorTSMI.Text = "Text Background Color…";
          textBackgroundColorTSMI.Click += TextBackgroundColorTSMI_Click;
          // 
          // toolStripSeparator13
          // 
          toolStripSeparator13.Name = "toolStripSeparator13";
-         toolStripSeparator13.Size = new Size(828, 6);
-         // 
-         // xFontPickersTSMI
-         // 
-         xFontPickersTSMI.DropDownItems.AddRange(new ToolStripItem[] { xInterfaceFontTSMI, toolStripSeparator15, xTextFontTSMI, xMonospacedTextBoxFontTSMI });
-         xFontPickersTSMI.Name = "xFontPickersTSMI";
-         xFontPickersTSMI.Size = new Size(831, 42);
-         xFontPickersTSMI.Text = "External &Font Picker";
-         // 
-         // xInterfaceFontTSMI
-         // 
-         xInterfaceFontTSMI.Name = "xInterfaceFontTSMI";
-         xInterfaceFontTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.I;
-         xInterfaceFontTSMI.Size = new Size(751, 42);
-         xInterfaceFontTSMI.Text = "For &Interface Font…";
-         xInterfaceFontTSMI.Click += XInterfaceFontTSMI_Click;
-         // 
-         // toolStripSeparator15
-         // 
-         toolStripSeparator15.Name = "toolStripSeparator15";
-         toolStripSeparator15.Size = new Size(748, 6);
-         // 
-         // xTextFontTSMI
-         // 
-         xTextFontTSMI.Name = "xTextFontTSMI";
-         xTextFontTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.H;
-         xTextFontTSMI.Size = new Size(751, 42);
-         xTextFontTSMI.Text = "For &Text Font…";
-         xTextFontTSMI.Click += XTextFontTSMI_Click;
-         // 
-         // xMonospacedTextBoxFontTSMI
-         // 
-         xMonospacedTextBoxFontTSMI.Name = "xMonospacedTextBoxFontTSMI";
-         xMonospacedTextBoxFontTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.N;
-         xMonospacedTextBoxFontTSMI.Size = new Size(751, 42);
-         xMonospacedTextBoxFontTSMI.Text = "&Monospaced Textbox Font…";
-         xMonospacedTextBoxFontTSMI.Click += XMonospacedTextBoxFontTSMI_Click;
-         // 
-         // xColorPickersTSMI
-         // 
-         xColorPickersTSMI.DropDownItems.AddRange(new ToolStripItem[] { xInterfaceFontColorTSMI, xInterfaceBackgroundColorTSMI, xTextFontColorTSMI, xTextBackgroundColorTSMI, xStatusStripBackgroundColorTSMI, xDialogBackgroundColorTSMI });
-         xColorPickersTSMI.Name = "xColorPickersTSMI";
-         xColorPickersTSMI.Size = new Size(831, 42);
-         xColorPickersTSMI.Text = "External &Color Picker";
-         // 
-         // xInterfaceFontColorTSMI
-         // 
-         xInterfaceFontColorTSMI.Name = "xInterfaceFontColorTSMI";
-         xInterfaceFontColorTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.J;
-         xInterfaceFontColorTSMI.Size = new Size(911, 42);
-         xInterfaceFontColorTSMI.Text = "&Interface Font Color…";
-         xInterfaceFontColorTSMI.Click += XInterfaceFontColorTSMI_Click;
-         // 
-         // xInterfaceBackgroundColorTSMI
-         // 
-         xInterfaceBackgroundColorTSMI.Name = "xInterfaceBackgroundColorTSMI";
-         xInterfaceBackgroundColorTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.K;
-         xInterfaceBackgroundColorTSMI.Size = new Size(911, 42);
-         xInterfaceBackgroundColorTSMI.Text = "For Interface &Background Color…";
-         xInterfaceBackgroundColorTSMI.Click += XInterfaceBackgroundColorTSMI_Click;
-         // 
-         // xTextFontColorTSMI
-         // 
-         xTextFontColorTSMI.Name = "xTextFontColorTSMI";
-         xTextFontColorTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.P;
-         xTextFontColorTSMI.Size = new Size(911, 42);
-         xTextFontColorTSMI.Text = "&Text Font Color…";
-         xTextFontColorTSMI.Click += XTextFontColorTSMI_Click;
-         // 
-         // xTextBackgroundColorTSMI
-         // 
-         xTextBackgroundColorTSMI.Name = "xTextBackgroundColorTSMI";
-         xTextBackgroundColorTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.Q;
-         xTextBackgroundColorTSMI.Size = new Size(911, 42);
-         xTextBackgroundColorTSMI.Text = "Textbox Background &Color…";
-         xTextBackgroundColorTSMI.Click += XTextBackgroundColorTSMI_Click;
-         // 
-         // xStatusStripBackgroundColorTSMI
-         // 
-         xStatusStripBackgroundColorTSMI.Name = "xStatusStripBackgroundColorTSMI";
-         xStatusStripBackgroundColorTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.A;
-         xStatusStripBackgroundColorTSMI.Size = new Size(911, 42);
-         xStatusStripBackgroundColorTSMI.Text = "For Status Strip Background Color…";
-         xStatusStripBackgroundColorTSMI.Click += XStatusBarBackgroundColorTSMI_Click;
-         // 
-         // xDialogBackgroundColorTSMI
-         // 
-         xDialogBackgroundColorTSMI.Name = "xDialogBackgroundColorTSMI";
-         xDialogBackgroundColorTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.Y;
-         xDialogBackgroundColorTSMI.Size = new Size(911, 42);
-         xDialogBackgroundColorTSMI.Text = "For Dialog Background Color…";
-         xDialogBackgroundColorTSMI.Click += XDialogBackgroundColorTSMI_Click;
+         toolStripSeparator13.Size = new Size(657, 6);
          // 
          // toolStripSeparator14
          // 
          toolStripSeparator14.Name = "toolStripSeparator14";
-         toolStripSeparator14.Size = new Size(828, 6);
+         toolStripSeparator14.Size = new Size(657, 6);
          // 
          // statusStripBackgroundColorTSMI
          // 
          statusStripBackgroundColorTSMI.Name = "statusStripBackgroundColorTSMI";
          statusStripBackgroundColorTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.Z;
-         statusStripBackgroundColorTSMI.Size = new Size(831, 42);
+         statusStripBackgroundColorTSMI.Size = new Size(660, 42);
          statusStripBackgroundColorTSMI.Text = "Status Strip Background Color";
          statusStripBackgroundColorTSMI.Click += StatusStripBackgroundColorTSMI_Click;
          // 
@@ -1259,20 +1156,20 @@
          // 
          dialogBackgroundColorTSMI.Name = "dialogBackgroundColorTSMI";
          dialogBackgroundColorTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.O;
-         dialogBackgroundColorTSMI.Size = new Size(831, 42);
+         dialogBackgroundColorTSMI.Size = new Size(660, 42);
          dialogBackgroundColorTSMI.Text = "Dialog Background Color";
          dialogBackgroundColorTSMI.Click += DialogBackgroundColorTSMI_Click;
          // 
          // toolStripSeparator17
          // 
-         toolStripSeparator17.Name = "toolStripSeparator17";
-         toolStripSeparator17.Size = new Size(828, 6);
+         toolStripSeparator15.Name = "toolStripSeparator17";
+         toolStripSeparator15.Size = new Size(657, 6);
          // 
          // recentFilesHistoryLimitTSMI
          // 
          recentFilesHistoryLimitTSMI.Name = "recentFilesHistoryLimitTSMI";
          recentFilesHistoryLimitTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.L;
-         recentFilesHistoryLimitTSMI.Size = new Size(831, 42);
+         recentFilesHistoryLimitTSMI.Size = new Size(660, 42);
          recentFilesHistoryLimitTSMI.Text = "Recent Files History Limit…";
          recentFilesHistoryLimitTSMI.Click += RecentFilesHistoryLimitTSMI_Click;
          // 
@@ -1280,14 +1177,14 @@
          // 
          fontSizesTSMI.DropDownItems.AddRange(new ToolStripItem[] { interfaceFontSizeTSMI, textBoxFontSizeTSMI });
          fontSizesTSMI.Name = "fontSizesTSMI";
-         fontSizesTSMI.Size = new Size(831, 42);
+         fontSizesTSMI.Size = new Size(660, 42);
          fontSizesTSMI.Text = "Font &Sizes";
          // 
          // interfaceFontSizeTSMI
          // 
          interfaceFontSizeTSMI.Name = "interfaceFontSizeTSMI";
          interfaceFontSizeTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.X;
-         interfaceFontSizeTSMI.Size = new Size(607, 42);
+         interfaceFontSizeTSMI.Size = new Size(485, 42);
          interfaceFontSizeTSMI.Text = "Interface Size…";
          interfaceFontSizeTSMI.Click += InterfaceFontSizeTSMI_Click;
          // 
@@ -1295,7 +1192,7 @@
          // 
          textBoxFontSizeTSMI.Name = "textBoxFontSizeTSMI";
          textBoxFontSizeTSMI.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Shift | Keys.V;
-         textBoxFontSizeTSMI.Size = new Size(607, 42);
+         textBoxFontSizeTSMI.Size = new Size(485, 42);
          textBoxFontSizeTSMI.Text = "Text Size…";
          textBoxFontSizeTSMI.Click += TextBoxFontSizeTSMI_Click;
          // 
@@ -1305,7 +1202,7 @@
          allIfNothingTSMI.CheckOnClick = true;
          allIfNothingTSMI.CheckState = CheckState.Checked;
          allIfNothingTSMI.Name = "allIfNothingTSMI";
-         allIfNothingTSMI.Size = new Size(831, 42);
+         allIfNothingTSMI.Size = new Size(660, 42);
          allIfNothingTSMI.Text = "All If Nothing";
          allIfNothingTSMI.Click += AllIfNothingTSMI_Click;
          // 
@@ -1315,7 +1212,7 @@
          helpTSMI.Name = "helpTSMI";
          helpTSMI.Overflow = ToolStripItemOverflow.AsNeeded;
          helpTSMI.ShortcutKeys = Keys.F1;
-         helpTSMI.Size = new Size(109, 42);
+         helpTSMI.Size = new Size(101, 41);
          helpTSMI.Text = "&Help";
          helpTSMI.Click += HelpTSMI_Click;
          // 
@@ -1327,7 +1224,7 @@
          statusStrip.Location = new Point(0, 0);
          statusStrip.Name = "statusStrip";
          statusStrip.Padding = new Padding(1, 0, 15, 0);
-         statusStrip.Size = new Size(2375, 43);
+         statusStrip.Size = new Size(2375, 42);
          statusStrip.TabIndex = 1001;
          statusStrip.Text = "statusStrip1";
          // 
@@ -1335,42 +1232,42 @@
          // 
          charactersStatusLabel.ForeColor = Color.White;
          charactersStatusLabel.Name = "charactersStatusLabel";
-         charactersStatusLabel.Size = new Size(225, 38);
+         charactersStatusLabel.Size = new Size(169, 37);
          charactersStatusLabel.Text = "Characters: 0";
          // 
          // wordsStatusLabel
          // 
          wordsStatusLabel.ForeColor = Color.White;
          wordsStatusLabel.Name = "wordsStatusLabel";
-         wordsStatusLabel.Size = new Size(145, 38);
+         wordsStatusLabel.Size = new Size(121, 37);
          wordsStatusLabel.Text = "Words: 0";
          // 
          // linesStatusLabel
          // 
          linesStatusLabel.ForeColor = Color.White;
          linesStatusLabel.Name = "linesStatusLabel";
-         linesStatusLabel.Size = new Size(145, 38);
+         linesStatusLabel.Size = new Size(105, 37);
          linesStatusLabel.Text = "Lines: 0";
          // 
          // utfStatusLabel
          // 
          utfStatusLabel.ForeColor = Color.White;
          utfStatusLabel.Name = "utfStatusLabel";
-         utfStatusLabel.Size = new Size(97, 38);
+         utfStatusLabel.Size = new Size(89, 37);
          utfStatusLabel.Text = "UTF-8";
          // 
          // positionStatusLabel
          // 
          positionStatusLabel.ForeColor = Color.White;
          positionStatusLabel.Name = "positionStatusLabel";
-         positionStatusLabel.Size = new Size(177, 38);
+         positionStatusLabel.Size = new Size(125, 37);
          positionStatusLabel.Text = "Position: ";
          // 
          // versionStatusLabel
          // 
          versionStatusLabel.ForeColor = Color.White;
          versionStatusLabel.Name = "versionStatusLabel";
-         versionStatusLabel.Size = new Size(273, 38);
+         versionStatusLabel.Size = new Size(193, 37);
          versionStatusLabel.Text = "version: 0.0.0.0";
          // 
          // openFileDialog
@@ -1431,7 +1328,7 @@
          findGlobalRadioButton.ForeColor = Color.Black;
          findGlobalRadioButton.Location = new Point(21, 103);
          findGlobalRadioButton.Name = "findGlobalRadioButton";
-         findGlobalRadioButton.Size = new Size(131, 42);
+         findGlobalRadioButton.Size = new Size(114, 41);
          findGlobalRadioButton.TabIndex = 2021;
          findGlobalRadioButton.TabStop = true;
          findGlobalRadioButton.Text = "Global";
@@ -1443,7 +1340,7 @@
          findSelectionRadioButton.ForeColor = Color.Black;
          findSelectionRadioButton.Location = new Point(21, 51);
          findSelectionRadioButton.Name = "findSelectionRadioButton";
-         findSelectionRadioButton.Size = new Size(179, 42);
+         findSelectionRadioButton.Size = new Size(143, 41);
          findSelectionRadioButton.TabIndex = 2020;
          findSelectionRadioButton.TabStop = true;
          findSelectionRadioButton.Text = "Selection";
@@ -1467,7 +1364,7 @@
          findCancelButton.ForeColor = Color.Black;
          findCancelButton.Location = new Point(570, 281);
          findCancelButton.Name = "findCancelButton";
-         findCancelButton.Size = new Size(123, 48);
+         findCancelButton.Size = new Size(106, 47);
          findCancelButton.TabIndex = 2099;
          findCancelButton.Text = "Cancel";
          toolTip.SetToolTip(findCancelButton, "Close dialog without finding");
@@ -1481,7 +1378,7 @@
          findButton.ForeColor = Color.Black;
          findButton.Location = new Point(533, 51);
          findButton.Name = "findButton";
-         findButton.Size = new Size(171, 48);
+         findButton.Size = new Size(140, 47);
          findButton.TabIndex = 2090;
          findButton.Text = "Find Next";
          findButton.UseVisualStyleBackColor = true;
@@ -1508,7 +1405,7 @@
          findVerboseCheckBox.ForeColor = Color.Black;
          findVerboseCheckBox.Location = new Point(21, 196);
          findVerboseCheckBox.Name = "findVerboseCheckBox";
-         findVerboseCheckBox.Size = new Size(148, 42);
+         findVerboseCheckBox.Size = new Size(131, 41);
          findVerboseCheckBox.TabIndex = 2013;
          findVerboseCheckBox.Text = "Verbose";
          findVerboseCheckBox.UseVisualStyleBackColor = true;
@@ -1519,7 +1416,7 @@
          findRegularExpressionsCheckBox.ForeColor = Color.Black;
          findRegularExpressionsCheckBox.Location = new Point(21, 154);
          findRegularExpressionsCheckBox.Name = "findRegularExpressionsCheckBox";
-         findRegularExpressionsCheckBox.Size = new Size(340, 42);
+         findRegularExpressionsCheckBox.Size = new Size(269, 41);
          findRegularExpressionsCheckBox.TabIndex = 2011;
          findRegularExpressionsCheckBox.Text = "Regular Expressions";
          findRegularExpressionsCheckBox.UseVisualStyleBackColor = true;
@@ -1530,7 +1427,7 @@
          findWholeWordCheckBox.ForeColor = Color.Black;
          findWholeWordCheckBox.Location = new Point(21, 100);
          findWholeWordCheckBox.Name = "findWholeWordCheckBox";
-         findWholeWordCheckBox.Size = new Size(196, 42);
+         findWholeWordCheckBox.Size = new Size(185, 41);
          findWholeWordCheckBox.TabIndex = 2012;
          findWholeWordCheckBox.Text = "Whole Word";
          toolTip.SetToolTip(findWholeWordCheckBox, "only applies to regular expressions");
@@ -1542,7 +1439,7 @@
          findMatchCaseCheckBox.ForeColor = Color.Black;
          findMatchCaseCheckBox.Location = new Point(21, 51);
          findMatchCaseCheckBox.Name = "findMatchCaseCheckBox";
-         findMatchCaseCheckBox.Size = new Size(196, 42);
+         findMatchCaseCheckBox.Size = new Size(173, 41);
          findMatchCaseCheckBox.TabIndex = 2010;
          findMatchCaseCheckBox.Text = "Match Case";
          findMatchCaseCheckBox.UseVisualStyleBackColor = true;
@@ -1554,7 +1451,7 @@
          findTextBox.HideSelection = false;
          findTextBox.Location = new Point(197, 51);
          findTextBox.Name = "findTextBox";
-         findTextBox.Size = new Size(320, 39);
+         findTextBox.Size = new Size(320, 43);
          findTextBox.TabIndex = 2002;
          // 
          // findWhatPrefixButton
@@ -1564,7 +1461,7 @@
          findWhatPrefixButton.ForeColor = Color.Black;
          findWhatPrefixButton.Location = new Point(27, 51);
          findWhatPrefixButton.Name = "findWhatPrefixButton";
-         findWhatPrefixButton.Size = new Size(187, 48);
+         findWhatPrefixButton.Size = new Size(154, 47);
          findWhatPrefixButton.TabIndex = 2001;
          findWhatPrefixButton.Text = "Find What:";
          findWhatPrefixButton.UseVisualStyleBackColor = true;
@@ -1607,7 +1504,7 @@
          replaceGlobalRadioButton.ForeColor = Color.Black;
          replaceGlobalRadioButton.Location = new Point(21, 103);
          replaceGlobalRadioButton.Name = "replaceGlobalRadioButton";
-         replaceGlobalRadioButton.Size = new Size(131, 42);
+         replaceGlobalRadioButton.Size = new Size(114, 41);
          replaceGlobalRadioButton.TabIndex = 2121;
          replaceGlobalRadioButton.TabStop = true;
          replaceGlobalRadioButton.Text = "Global";
@@ -1619,7 +1516,7 @@
          replaceSelectionRadioButton.ForeColor = Color.Black;
          replaceSelectionRadioButton.Location = new Point(21, 51);
          replaceSelectionRadioButton.Name = "replaceSelectionRadioButton";
-         replaceSelectionRadioButton.Size = new Size(179, 42);
+         replaceSelectionRadioButton.Size = new Size(143, 41);
          replaceSelectionRadioButton.TabIndex = 2120;
          replaceSelectionRadioButton.TabStop = true;
          replaceSelectionRadioButton.Text = "Selection";
@@ -1632,7 +1529,7 @@
          replaceAllButton.ForeColor = Color.Black;
          replaceAllButton.Location = new Point(542, 107);
          replaceAllButton.Name = "replaceAllButton";
-         replaceAllButton.Size = new Size(203, 48);
+         replaceAllButton.Size = new Size(157, 47);
          replaceAllButton.TabIndex = 2191;
          replaceAllButton.Text = "Replace All";
          replaceAllButton.UseVisualStyleBackColor = true;
@@ -1645,7 +1542,7 @@
          replaceTextBox.HideSelection = false;
          replaceTextBox.Location = new Point(234, 106);
          replaceTextBox.Name = "replaceTextBox";
-         replaceTextBox.Size = new Size(280, 39);
+         replaceTextBox.Size = new Size(280, 43);
          replaceTextBox.TabIndex = 2104;
          // 
          // searchReplacePrefixButton
@@ -1655,7 +1552,7 @@
          searchReplacePrefixButton.ForeColor = Color.Black;
          searchReplacePrefixButton.Location = new Point(27, 106);
          searchReplacePrefixButton.Name = "searchReplacePrefixButton";
-         searchReplacePrefixButton.Size = new Size(235, 48);
+         searchReplacePrefixButton.Size = new Size(188, 47);
          searchReplacePrefixButton.TabIndex = 2103;
          searchReplacePrefixButton.Text = "Replace With:";
          searchReplacePrefixButton.UseVisualStyleBackColor = true;
@@ -1678,7 +1575,7 @@
          replaceCancelButton.ForeColor = Color.Black;
          replaceCancelButton.Location = new Point(596, 322);
          replaceCancelButton.Name = "replaceCancelButton";
-         replaceCancelButton.Size = new Size(123, 48);
+         replaceCancelButton.Size = new Size(106, 47);
          replaceCancelButton.TabIndex = 2199;
          replaceCancelButton.Text = "Cancel";
          toolTip.SetToolTip(replaceCancelButton, "Close dialog without replacing");
@@ -1692,7 +1589,7 @@
          replaceButton.ForeColor = Color.Black;
          replaceButton.Location = new Point(542, 51);
          replaceButton.Name = "replaceButton";
-         replaceButton.Size = new Size(139, 48);
+         replaceButton.Size = new Size(119, 47);
          replaceButton.TabIndex = 2190;
          replaceButton.Text = "Replace";
          replaceButton.UseVisualStyleBackColor = true;
@@ -1719,7 +1616,7 @@
          replaceVerboseCheckBox.ForeColor = Color.Black;
          replaceVerboseCheckBox.Location = new Point(21, 195);
          replaceVerboseCheckBox.Name = "replaceVerboseCheckBox";
-         replaceVerboseCheckBox.Size = new Size(148, 42);
+         replaceVerboseCheckBox.Size = new Size(131, 41);
          replaceVerboseCheckBox.TabIndex = 2113;
          replaceVerboseCheckBox.Text = "Verbose";
          replaceVerboseCheckBox.UseVisualStyleBackColor = true;
@@ -1730,7 +1627,7 @@
          replaceRegularExpressionsCheckBox.ForeColor = Color.Black;
          replaceRegularExpressionsCheckBox.Location = new Point(21, 154);
          replaceRegularExpressionsCheckBox.Name = "replaceRegularExpressionsCheckBox";
-         replaceRegularExpressionsCheckBox.Size = new Size(340, 42);
+         replaceRegularExpressionsCheckBox.Size = new Size(269, 41);
          replaceRegularExpressionsCheckBox.TabIndex = 2111;
          replaceRegularExpressionsCheckBox.Text = "Regular Expressions";
          replaceRegularExpressionsCheckBox.UseVisualStyleBackColor = true;
@@ -1741,7 +1638,7 @@
          replaceWholeWordCheckBox.ForeColor = Color.Black;
          replaceWholeWordCheckBox.Location = new Point(21, 103);
          replaceWholeWordCheckBox.Name = "replaceWholeWordCheckBox";
-         replaceWholeWordCheckBox.Size = new Size(196, 42);
+         replaceWholeWordCheckBox.Size = new Size(185, 41);
          replaceWholeWordCheckBox.TabIndex = 2112;
          replaceWholeWordCheckBox.Text = "Whole Word";
          toolTip.SetToolTip(replaceWholeWordCheckBox, "only applies to regular expressions");
@@ -1753,7 +1650,7 @@
          replaceMatchCaseCheckBox.ForeColor = Color.Black;
          replaceMatchCaseCheckBox.Location = new Point(21, 51);
          replaceMatchCaseCheckBox.Name = "replaceMatchCaseCheckBox";
-         replaceMatchCaseCheckBox.Size = new Size(196, 42);
+         replaceMatchCaseCheckBox.Size = new Size(173, 41);
          replaceMatchCaseCheckBox.TabIndex = 2110;
          replaceMatchCaseCheckBox.Text = "Match Case";
          replaceMatchCaseCheckBox.UseVisualStyleBackColor = true;
@@ -1765,7 +1662,7 @@
          searchTextBox.HideSelection = false;
          searchTextBox.Location = new Point(197, 51);
          searchTextBox.Name = "searchTextBox";
-         searchTextBox.Size = new Size(320, 39);
+         searchTextBox.Size = new Size(320, 43);
          searchTextBox.TabIndex = 2102;
          // 
          // searchSearchPrefixButton
@@ -1775,7 +1672,7 @@
          searchSearchPrefixButton.ForeColor = Color.Black;
          searchSearchPrefixButton.Location = new Point(27, 51);
          searchSearchPrefixButton.Name = "searchSearchPrefixButton";
-         searchSearchPrefixButton.Size = new Size(203, 48);
+         searchSearchPrefixButton.Size = new Size(156, 47);
          searchSearchPrefixButton.TabIndex = 2101;
          searchSearchPrefixButton.Text = "Search For:";
          searchSearchPrefixButton.UseVisualStyleBackColor = true;
@@ -1801,7 +1698,7 @@
          goCancelButton.ForeColor = Color.Black;
          goCancelButton.Location = new Point(107, 103);
          goCancelButton.Name = "goCancelButton";
-         goCancelButton.Size = new Size(123, 48);
+         goCancelButton.Size = new Size(106, 47);
          goCancelButton.TabIndex = 2299;
          goCancelButton.Text = "Cancel";
          toolTip.SetToolTip(goCancelButton, "Close dialog without going to a line");
@@ -1815,7 +1712,7 @@
          goToGoButton.ForeColor = Color.Black;
          goToGoButton.Location = new Point(11, 103);
          goToGoButton.Name = "goToGoButton";
-         goToGoButton.Size = new Size(59, 48);
+         goToGoButton.Size = new Size(62, 47);
          goToGoButton.TabIndex = 2290;
          goToGoButton.Text = "Go";
          goToGoButton.UseVisualStyleBackColor = true;
@@ -1827,7 +1724,7 @@
          goUpDown.Location = new Point(105, 45);
          goUpDown.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
          goUpDown.Name = "goUpDown";
-         goUpDown.Size = new Size(128, 39);
+         goUpDown.Size = new Size(128, 43);
          goUpDown.TabIndex = 2202;
          goUpDown.Value = new decimal(new int[] { 1, 0, 0, 0 });
          // 
@@ -1838,7 +1735,7 @@
          goToPrefixButton.ForeColor = Color.Black;
          goToPrefixButton.Location = new Point(11, 45);
          goToPrefixButton.Name = "goToPrefixButton";
-         goToPrefixButton.Size = new Size(107, 48);
+         goToPrefixButton.Size = new Size(82, 47);
          goToPrefixButton.TabIndex = 2201;
          goToPrefixButton.Text = "Line:";
          goToPrefixButton.UseVisualStyleBackColor = true;
@@ -1869,7 +1766,7 @@
          recentFilesHistoryCancelButton.ForeColor = Color.Black;
          recentFilesHistoryCancelButton.Location = new Point(311, 103);
          recentFilesHistoryCancelButton.Name = "recentFilesHistoryCancelButton";
-         recentFilesHistoryCancelButton.Size = new Size(123, 48);
+         recentFilesHistoryCancelButton.Size = new Size(106, 47);
          recentFilesHistoryCancelButton.TabIndex = 2499;
          recentFilesHistoryCancelButton.Text = "Cancel";
          toolTip.SetToolTip(recentFilesHistoryCancelButton, "Close dialog without going to a line");
@@ -1883,7 +1780,7 @@
          fontSizeCancelButton.ForeColor = Color.Black;
          fontSizeCancelButton.Location = new Point(107, 154);
          fontSizeCancelButton.Name = "fontSizeCancelButton";
-         fontSizeCancelButton.Size = new Size(123, 48);
+         fontSizeCancelButton.Size = new Size(106, 47);
          fontSizeCancelButton.TabIndex = 2599;
          fontSizeCancelButton.Text = "Cancel";
          toolTip.SetToolTip(fontSizeCancelButton, "Close dialog without going to a line");
@@ -1897,7 +1794,7 @@
          createThemeCancelButton.ForeColor = Color.Black;
          createThemeCancelButton.Location = new Point(107, 116);
          createThemeCancelButton.Name = "createThemeCancelButton";
-         createThemeCancelButton.Size = new Size(123, 48);
+         createThemeCancelButton.Size = new Size(106, 47);
          createThemeCancelButton.TabIndex = 2699;
          createThemeCancelButton.Text = "Cancel";
          toolTip.SetToolTip(createThemeCancelButton, "Close dialog without going to a line");
@@ -1911,7 +1808,7 @@
          pickThemeCancelButton.ForeColor = Color.Black;
          pickThemeCancelButton.Location = new Point(167, 51);
          pickThemeCancelButton.Name = "pickThemeCancelButton";
-         pickThemeCancelButton.Size = new Size(123, 48);
+         pickThemeCancelButton.Size = new Size(106, 47);
          pickThemeCancelButton.TabIndex = 2799;
          pickThemeCancelButton.Text = "Cancel";
          toolTip.SetToolTip(pickThemeCancelButton, "Close dialog without going to a line");
@@ -1925,7 +1822,7 @@
          editThemeCancelButton.ForeColor = Color.Black;
          editThemeCancelButton.Location = new Point(115, 912);
          editThemeCancelButton.Name = "editThemeCancelButton";
-         editThemeCancelButton.Size = new Size(123, 48);
+         editThemeCancelButton.Size = new Size(106, 47);
          editThemeCancelButton.TabIndex = 2899;
          editThemeCancelButton.Text = "Cancel";
          toolTip.SetToolTip(editThemeCancelButton, "Close dialog without going to a line");
@@ -1939,7 +1836,7 @@
          wheelingVelocityCancelButton.ForeColor = Color.Black;
          wheelingVelocityCancelButton.Location = new Point(154, 111);
          wheelingVelocityCancelButton.Name = "wheelingVelocityCancelButton";
-         wheelingVelocityCancelButton.Size = new Size(123, 48);
+         wheelingVelocityCancelButton.Size = new Size(106, 47);
          wheelingVelocityCancelButton.TabIndex = 2999;
          wheelingVelocityCancelButton.Text = "Cancel";
          toolTip.SetToolTip(wheelingVelocityCancelButton, "Close dialog without going to a line");
@@ -1953,7 +1850,7 @@
          questionResponseCancelButton.ForeColor = Color.Black;
          questionResponseCancelButton.Location = new Point(414, 220);
          questionResponseCancelButton.Name = "questionResponseCancelButton";
-         questionResponseCancelButton.Size = new Size(123, 48);
+         questionResponseCancelButton.Size = new Size(106, 47);
          questionResponseCancelButton.TabIndex = 3099;
          questionResponseCancelButton.Tag = questionResponseCancelButton;
          questionResponseCancelButton.Text = "Cancel";
@@ -1969,9 +1866,9 @@
          toolStrip.ImageScalingSize = new Size(32, 32);
          toolStrip.Items.AddRange(new ToolStripItem[] { newToolStripButton, openToolStripButton, saveToolStripButton, saveAsTSB, printToolStripButton, cutToolStripButton, trimBeginningToolStripButton, trimEndToolStripButton, copyToolStripButton, pasteToolStripButton, helpToolStripButton, toolTopButton, toolLeftEdgeButton, toolRightEdgeButton, toolBottomButton, toolScrollLeftButton, toolScrollUpButton, toolScrollDownButton, toolScrollRightButton, toolPageLeftButton, toolPageUpButton, toolPageDownButton, toolPageRightButton });
          toolStrip.LayoutStyle = ToolStripLayoutStyle.Flow;
-         toolStrip.Location = new Point(3, 46);
+         toolStrip.Location = new Point(3, 45);
          toolStrip.Name = "toolStrip";
-         toolStrip.Size = new Size(2372, 45);
+         toolStrip.Size = new Size(1993, 44);
          toolStrip.TabIndex = 1002;
          toolStrip.Text = "toolStrip1";
          toolStrip.Layout += ToolStrip_Layout;
@@ -2094,7 +1991,7 @@
          toolTopButton.Image = (Image)resources.GetObject("toolTopButton.Image");
          toolTopButton.ImageTransparentColor = Color.Magenta;
          toolTopButton.Name = "toolTopButton";
-         toolTopButton.Size = new Size(69, 42);
+         toolTopButton.Size = new Size(64, 41);
          toolTopButton.Text = "Top";
          toolTopButton.Click += ToolTopButton_Click;
          // 
@@ -2104,7 +2001,7 @@
          toolLeftEdgeButton.Image = (Image)resources.GetObject("toolLeftEdgeButton.Image");
          toolLeftEdgeButton.ImageTransparentColor = Color.Magenta;
          toolLeftEdgeButton.Name = "toolLeftEdgeButton";
-         toolLeftEdgeButton.Size = new Size(165, 42);
+         toolLeftEdgeButton.Size = new Size(132, 41);
          toolLeftEdgeButton.Text = "Left Edge";
          toolLeftEdgeButton.Click += ToolLeftEdgeButton_Click;
          // 
@@ -2114,7 +2011,7 @@
          toolRightEdgeButton.Image = (Image)resources.GetObject("toolRightEdgeButton.Image");
          toolRightEdgeButton.ImageTransparentColor = Color.Magenta;
          toolRightEdgeButton.Name = "toolRightEdgeButton";
-         toolRightEdgeButton.Size = new Size(181, 42);
+         toolRightEdgeButton.Size = new Size(151, 41);
          toolRightEdgeButton.Text = "Right Edge";
          toolRightEdgeButton.Click += ToolRightEdgeButton_Click;
          // 
@@ -2124,7 +2021,7 @@
          toolBottomButton.Image = (Image)resources.GetObject("toolBottomButton.Image");
          toolBottomButton.ImageTransparentColor = Color.Magenta;
          toolBottomButton.Name = "toolBottomButton";
-         toolBottomButton.Size = new Size(117, 42);
+         toolBottomButton.Size = new Size(109, 41);
          toolBottomButton.Text = "Bottom";
          toolBottomButton.Click += ToolBottomButton_Click;
          // 
@@ -2134,7 +2031,7 @@
          toolScrollLeftButton.Image = (Image)resources.GetObject("toolScrollLeftButton.Image");
          toolScrollLeftButton.ImageTransparentColor = Color.Magenta;
          toolScrollLeftButton.Name = "toolScrollLeftButton";
-         toolScrollLeftButton.Size = new Size(197, 42);
+         toolScrollLeftButton.Size = new Size(137, 41);
          toolScrollLeftButton.Text = "Scroll Left";
          toolScrollLeftButton.Click += ToolScrollLeftButton_Click;
          // 
@@ -2144,7 +2041,7 @@
          toolScrollUpButton.Image = (Image)resources.GetObject("toolScrollUpButton.Image");
          toolScrollUpButton.ImageTransparentColor = Color.Magenta;
          toolScrollUpButton.Name = "toolScrollUpButton";
-         toolScrollUpButton.Size = new Size(165, 42);
+         toolScrollUpButton.Size = new Size(128, 41);
          toolScrollUpButton.Text = "Scroll Up";
          toolScrollUpButton.Click += ToolScrollUpButton_Click;
          // 
@@ -2154,7 +2051,7 @@
          toolScrollDownButton.Image = (Image)resources.GetObject("toolScrollDownButton.Image");
          toolScrollDownButton.ImageTransparentColor = Color.Magenta;
          toolScrollDownButton.Name = "toolScrollDownButton";
-         toolScrollDownButton.Size = new Size(197, 42);
+         toolScrollDownButton.Size = new Size(163, 41);
          toolScrollDownButton.Text = "Scroll Down";
          toolScrollDownButton.Click += ToolScrollDownButton_Click;
          // 
@@ -2164,7 +2061,7 @@
          toolScrollRightButton.Image = (Image)resources.GetObject("toolScrollRightButton.Image");
          toolScrollRightButton.ImageTransparentColor = Color.Magenta;
          toolScrollRightButton.Name = "toolScrollRightButton";
-         toolScrollRightButton.Size = new Size(213, 42);
+         toolScrollRightButton.Size = new Size(156, 41);
          toolScrollRightButton.Text = "Scroll Right";
          toolScrollRightButton.Click += ToolScrollRightButton_Click;
          // 
@@ -2174,7 +2071,7 @@
          toolPageLeftButton.Image = (Image)resources.GetObject("toolPageLeftButton.Image");
          toolPageLeftButton.ImageTransparentColor = Color.Magenta;
          toolPageLeftButton.Name = "toolPageLeftButton";
-         toolPageLeftButton.Size = new Size(165, 42);
+         toolPageLeftButton.Size = new Size(130, 41);
          toolPageLeftButton.Text = "Page Left";
          toolPageLeftButton.Click += ToolPageLeftButton_Click;
          // 
@@ -2184,7 +2081,7 @@
          toolPageUpButton.Image = (Image)resources.GetObject("toolPageUpButton.Image");
          toolPageUpButton.ImageTransparentColor = Color.Magenta;
          toolPageUpButton.Name = "toolPageUpButton";
-         toolPageUpButton.Size = new Size(133, 42);
+         toolPageUpButton.Size = new Size(121, 41);
          toolPageUpButton.Text = "Page Up";
          toolPageUpButton.Click += ToolPageUpButton_Click;
          // 
@@ -2194,7 +2091,7 @@
          toolPageDownButton.Image = (Image)resources.GetObject("toolPageDownButton.Image");
          toolPageDownButton.ImageTransparentColor = Color.Magenta;
          toolPageDownButton.Name = "toolPageDownButton";
-         toolPageDownButton.Size = new Size(165, 42);
+         toolPageDownButton.Size = new Size(156, 41);
          toolPageDownButton.Text = "Page Down";
          toolPageDownButton.Click += ToolPageDownButton_Click;
          // 
@@ -2204,7 +2101,7 @@
          toolPageRightButton.Image = (Image)resources.GetObject("toolPageRightButton.Image");
          toolPageRightButton.ImageTransparentColor = Color.Magenta;
          toolPageRightButton.Name = "toolPageRightButton";
-         toolPageRightButton.Size = new Size(181, 42);
+         toolPageRightButton.Size = new Size(149, 41);
          toolPageRightButton.Text = "Page Right";
          toolPageRightButton.Click += ToolPageRightButton_Click;
          // 
@@ -2231,7 +2128,7 @@
          done.ForeColor = Color.Black;
          done.Location = new Point(485, 101);
          done.Name = "done";
-         done.Size = new Size(129, 38);
+         done.Size = new Size(108, 37);
          done.TabIndex = 9999;
          done.Text = "Cleared";
          // 
@@ -2240,7 +2137,7 @@
          fileHistoryMinMaxLabel.AutoSize = true;
          fileHistoryMinMaxLabel.Location = new Point(255, 55);
          fileHistoryMinMaxLabel.Name = "fileHistoryMinMaxLabel";
-         fileHistoryMinMaxLabel.Size = new Size(433, 38);
+         fileHistoryMinMaxLabel.Size = new Size(362, 37);
          fileHistoryMinMaxLabel.TabIndex = 2501;
          fileHistoryMinMaxLabel.Text = "(minimum: 0 – maximum: 50)";
          // 
@@ -2251,7 +2148,7 @@
          clearFileHistoryButton.ForeColor = Color.Black;
          clearFileHistoryButton.Location = new Point(11, 101);
          clearFileHistoryButton.Name = "clearFileHistoryButton";
-         clearFileHistoryButton.Size = new Size(235, 48);
+         clearFileHistoryButton.Size = new Size(179, 47);
          clearFileHistoryButton.TabIndex = 2500;
          clearFileHistoryButton.Text = "Clear History";
          clearFileHistoryButton.UseVisualStyleBackColor = true;
@@ -2264,7 +2161,7 @@
          recentFilesHistoryOkayButton.ForeColor = Color.Black;
          recentFilesHistoryOkayButton.Location = new Point(215, 103);
          recentFilesHistoryOkayButton.Name = "recentFilesHistoryOkayButton";
-         recentFilesHistoryOkayButton.Size = new Size(59, 48);
+         recentFilesHistoryOkayButton.Size = new Size(63, 47);
          recentFilesHistoryOkayButton.TabIndex = 2490;
          recentFilesHistoryOkayButton.Text = "OK";
          recentFilesHistoryOkayButton.UseVisualStyleBackColor = true;
@@ -2276,7 +2173,7 @@
          recentFilesHistoryUpDown.Location = new Point(105, 45);
          recentFilesHistoryUpDown.Maximum = new decimal(new int[] { 50, 0, 0, 0 });
          recentFilesHistoryUpDown.Name = "recentFilesHistoryUpDown";
-         recentFilesHistoryUpDown.Size = new Size(128, 39);
+         recentFilesHistoryUpDown.Size = new Size(128, 43);
          recentFilesHistoryUpDown.TabIndex = 2403;
          recentFilesHistoryUpDown.Value = new decimal(new int[] { 1, 0, 0, 0 });
          // 
@@ -2287,7 +2184,7 @@
          recentFilesHistoryPrefixButton.ForeColor = Color.Black;
          recentFilesHistoryPrefixButton.Location = new Point(11, 45);
          recentFilesHistoryPrefixButton.Name = "recentFilesHistoryPrefixButton";
-         recentFilesHistoryPrefixButton.Size = new Size(123, 48);
+         recentFilesHistoryPrefixButton.Size = new Size(85, 47);
          recentFilesHistoryPrefixButton.TabIndex = 2402;
          recentFilesHistoryPrefixButton.Text = "Files:";
          recentFilesHistoryPrefixButton.UseVisualStyleBackColor = true;
@@ -2323,7 +2220,7 @@
          sizeFontCloseOnOkayCheckBox.AutoSize = true;
          sizeFontCloseOnOkayCheckBox.Location = new Point(11, 103);
          sizeFontCloseOnOkayCheckBox.Name = "sizeFontCloseOnOkayCheckBox";
-         sizeFontCloseOnOkayCheckBox.Size = new Size(244, 42);
+         sizeFontCloseOnOkayCheckBox.Size = new Size(210, 41);
          sizeFontCloseOnOkayCheckBox.TabIndex = 2510;
          sizeFontCloseOnOkayCheckBox.Text = "Close On Okay";
          sizeFontCloseOnOkayCheckBox.UseVisualStyleBackColor = true;
@@ -2336,7 +2233,7 @@
          fontSizeOkayButton.ForeColor = Color.Black;
          fontSizeOkayButton.Location = new Point(11, 154);
          fontSizeOkayButton.Name = "fontSizeOkayButton";
-         fontSizeOkayButton.Size = new Size(59, 48);
+         fontSizeOkayButton.Size = new Size(63, 47);
          fontSizeOkayButton.TabIndex = 2590;
          fontSizeOkayButton.Text = "OK";
          fontSizeOkayButton.UseVisualStyleBackColor = true;
@@ -2349,7 +2246,7 @@
          fontSizeUpDown.Maximum = new decimal(new int[] { 512, 0, 0, 0 });
          fontSizeUpDown.Minimum = new decimal(new int[] { 8, 0, 0, 0 });
          fontSizeUpDown.Name = "fontSizeUpDown";
-         fontSizeUpDown.Size = new Size(128, 39);
+         fontSizeUpDown.Size = new Size(128, 43);
          fontSizeUpDown.TabIndex = 2503;
          fontSizeUpDown.Value = new decimal(new int[] { 8, 0, 0, 0 });
          // 
@@ -2360,7 +2257,7 @@
          fontSizePrefixButton.ForeColor = Color.Black;
          fontSizePrefixButton.Location = new Point(11, 45);
          fontSizePrefixButton.Name = "fontSizePrefixButton";
-         fontSizePrefixButton.Size = new Size(107, 48);
+         fontSizePrefixButton.Size = new Size(80, 47);
          fontSizePrefixButton.TabIndex = 2502;
          fontSizePrefixButton.Text = "Size:";
          fontSizePrefixButton.UseVisualStyleBackColor = true;
@@ -2397,7 +2294,7 @@
          createThemeOkayButton.ForeColor = Color.Black;
          createThemeOkayButton.Location = new Point(11, 116);
          createThemeOkayButton.Name = "createThemeOkayButton";
-         createThemeOkayButton.Size = new Size(59, 48);
+         createThemeOkayButton.Size = new Size(63, 47);
          createThemeOkayButton.TabIndex = 2690;
          createThemeOkayButton.Text = "OK";
          createThemeOkayButton.UseVisualStyleBackColor = true;
@@ -2408,7 +2305,7 @@
          createThemeNameTextBox.ForeColor = Color.Black;
          createThemeNameTextBox.Location = new Point(128, 60);
          createThemeNameTextBox.Name = "createThemeNameTextBox";
-         createThemeNameTextBox.Size = new Size(266, 39);
+         createThemeNameTextBox.Size = new Size(266, 43);
          createThemeNameTextBox.TabIndex = 2603;
          // 
          // createThemeNamePrefixButton
@@ -2418,7 +2315,7 @@
          createThemeNamePrefixButton.ForeColor = Color.Black;
          createThemeNamePrefixButton.Location = new Point(11, 60);
          createThemeNamePrefixButton.Name = "createThemeNamePrefixButton";
-         createThemeNamePrefixButton.Size = new Size(107, 48);
+         createThemeNamePrefixButton.Size = new Size(104, 47);
          createThemeNamePrefixButton.TabIndex = 2602;
          createThemeNamePrefixButton.Text = "Name:";
          createThemeNamePrefixButton.UseVisualStyleBackColor = true;
@@ -2453,7 +2350,7 @@
          doMoreCheckBox.AutoSize = true;
          doMoreCheckBox.Location = new Point(11, 55);
          doMoreCheckBox.Name = "doMoreCheckBox";
-         doMoreCheckBox.Size = new Size(148, 42);
+         doMoreCheckBox.Size = new Size(141, 41);
          doMoreCheckBox.TabIndex = 2800;
          doMoreCheckBox.Text = "Do More";
          doMoreCheckBox.UseVisualStyleBackColor = true;
@@ -2504,7 +2401,7 @@
          getPanelBackgroundColorButton.ForeColor = Color.Black;
          getPanelBackgroundColorButton.Location = new Point(11, 846);
          getPanelBackgroundColorButton.Name = "getPanelBackgroundColorButton";
-         getPanelBackgroundColorButton.Size = new Size(395, 48);
+         getPanelBackgroundColorButton.Size = new Size(326, 47);
          getPanelBackgroundColorButton.TabIndex = 2850;
          getPanelBackgroundColorButton.Text = "Dialog Background Color";
          getPanelBackgroundColorButton.UseVisualStyleBackColor = true;
@@ -2526,7 +2423,7 @@
          getStatusBarBackgroundColorButton.ForeColor = Color.Black;
          getStatusBarBackgroundColorButton.Location = new Point(11, 788);
          getStatusBarBackgroundColorButton.Name = "getStatusBarBackgroundColorButton";
-         getStatusBarBackgroundColorButton.Size = new Size(459, 48);
+         getStatusBarBackgroundColorButton.Size = new Size(363, 47);
          getStatusBarBackgroundColorButton.TabIndex = 2840;
          getStatusBarBackgroundColorButton.Text = "Status Bar Background Color";
          getStatusBarBackgroundColorButton.UseVisualStyleBackColor = true;
@@ -2555,7 +2452,7 @@
          interfaceDetailsLabel.AutoSize = true;
          interfaceDetailsLabel.Location = new Point(27, 45);
          interfaceDetailsLabel.Name = "interfaceDetailsLabel";
-         interfaceDetailsLabel.Size = new Size(513, 38);
+         interfaceDetailsLabel.Size = new Size(399, 37);
          interfaceDetailsLabel.TabIndex = 2871;
          interfaceDetailsLabel.Text = "Menus, Buttons, CheckBoxes etc.";
          // 
@@ -2575,7 +2472,7 @@
          getInterfaceBackgroundColorButton.ForeColor = Color.Black;
          getInterfaceBackgroundColorButton.Location = new Point(27, 262);
          getInterfaceBackgroundColorButton.Name = "getInterfaceBackgroundColorButton";
-         getInterfaceBackgroundColorButton.Size = new Size(443, 48);
+         getInterfaceBackgroundColorButton.Size = new Size(349, 47);
          getInterfaceBackgroundColorButton.TabIndex = 2834;
          getInterfaceBackgroundColorButton.Text = "Interface Background Color";
          getInterfaceBackgroundColorButton.UseVisualStyleBackColor = true;
@@ -2597,7 +2494,7 @@
          getInterfaceFontColorButton.ForeColor = Color.Black;
          getInterfaceFontColorButton.Location = new Point(298, 206);
          getInterfaceFontColorButton.Name = "getInterfaceFontColorButton";
-         getInterfaceFontColorButton.Size = new Size(347, 48);
+         getInterfaceFontColorButton.Size = new Size(261, 47);
          getInterfaceFontColorButton.TabIndex = 2832;
          getInterfaceFontColorButton.Text = "Interface Font Color";
          getInterfaceFontColorButton.UseVisualStyleBackColor = true;
@@ -2608,7 +2505,7 @@
          interfaceFontLabel.AutoSize = true;
          interfaceFontLabel.Location = new Point(27, 100);
          interfaceFontLabel.Name = "interfaceFontLabel";
-         interfaceFontLabel.Size = new Size(257, 38);
+         interfaceFontLabel.Size = new Size(185, 37);
          interfaceFontLabel.TabIndex = 2872;
          interfaceFontLabel.Text = "Interface Font:";
          // 
@@ -2619,7 +2516,7 @@
          getInterfaceFontSizeButton.ForeColor = Color.Black;
          getInterfaceFontSizeButton.Location = new Point(27, 206);
          getInterfaceFontSizeButton.Name = "getInterfaceFontSizeButton";
-         getInterfaceFontSizeButton.Size = new Size(331, 48);
+         getInterfaceFontSizeButton.Size = new Size(243, 47);
          getInterfaceFontSizeButton.TabIndex = 2831;
          getInterfaceFontSizeButton.Text = "Interface Font Size";
          getInterfaceFontSizeButton.UseVisualStyleBackColor = true;
@@ -2632,7 +2529,7 @@
          getInterfaceFontButton.ForeColor = Color.Black;
          getInterfaceFontButton.Location = new Point(27, 147);
          getInterfaceFontButton.Name = "getInterfaceFontButton";
-         getInterfaceFontButton.Size = new Size(315, 48);
+         getInterfaceFontButton.Size = new Size(233, 47);
          getInterfaceFontButton.TabIndex = 2830;
          getInterfaceFontButton.Text = "Set Interface Font";
          getInterfaceFontButton.UseVisualStyleBackColor = true;
@@ -2671,7 +2568,7 @@
          getTextBoxBackgroundColorButton.ForeColor = Color.Black;
          getTextBoxBackgroundColorButton.Location = new Point(27, 214);
          getTextBoxBackgroundColorButton.Name = "getTextBoxBackgroundColorButton";
-         getTextBoxBackgroundColorButton.Size = new Size(411, 48);
+         getTextBoxBackgroundColorButton.Size = new Size(336, 47);
          getTextBoxBackgroundColorButton.TabIndex = 2819;
          getTextBoxBackgroundColorButton.Text = "TextBox Background Color";
          getTextBoxBackgroundColorButton.UseVisualStyleBackColor = true;
@@ -2693,7 +2590,7 @@
          getTextBoxFontColorButton.ForeColor = Color.Black;
          getTextBoxFontColorButton.Location = new Point(287, 158);
          getTextBoxFontColorButton.Name = "getTextBoxFontColorButton";
-         getTextBoxFontColorButton.Size = new Size(315, 48);
+         getTextBoxFontColorButton.Size = new Size(248, 47);
          getTextBoxFontColorButton.TabIndex = 2817;
          getTextBoxFontColorButton.Text = "TextBox Font Color";
          getTextBoxFontColorButton.UseVisualStyleBackColor = true;
@@ -2704,7 +2601,7 @@
          textBoxFontLabel.AutoSize = true;
          textBoxFontLabel.Location = new Point(27, 49);
          textBoxFontLabel.Name = "textBoxFontLabel";
-         textBoxFontLabel.Size = new Size(241, 38);
+         textBoxFontLabel.Size = new Size(179, 37);
          textBoxFontLabel.TabIndex = 2870;
          textBoxFontLabel.Text = "Text Box Font:";
          // 
@@ -2715,7 +2612,7 @@
          getTextBoxFontSizeButton.ForeColor = Color.Black;
          getTextBoxFontSizeButton.Location = new Point(27, 158);
          getTextBoxFontSizeButton.Name = "getTextBoxFontSizeButton";
-         getTextBoxFontSizeButton.Size = new Size(299, 48);
+         getTextBoxFontSizeButton.Size = new Size(230, 47);
          getTextBoxFontSizeButton.TabIndex = 2816;
          getTextBoxFontSizeButton.Text = "TextBox Font Size";
          getTextBoxFontSizeButton.UseVisualStyleBackColor = true;
@@ -2728,7 +2625,7 @@
          getTextBoxFontButton.ForeColor = Color.Black;
          getTextBoxFontButton.Location = new Point(27, 96);
          getTextBoxFontButton.Name = "getTextBoxFontButton";
-         getTextBoxFontButton.Size = new Size(283, 48);
+         getTextBoxFontButton.Size = new Size(225, 47);
          getTextBoxFontButton.TabIndex = 2815;
          getTextBoxFontButton.Text = "Get TextBox Font";
          getTextBoxFontButton.UseVisualStyleBackColor = true;
@@ -2741,7 +2638,7 @@
          editThemeOkayButton.ForeColor = Color.Black;
          editThemeOkayButton.Location = new Point(21, 912);
          editThemeOkayButton.Name = "editThemeOkayButton";
-         editThemeOkayButton.Size = new Size(59, 48);
+         editThemeOkayButton.Size = new Size(63, 47);
          editThemeOkayButton.TabIndex = 2890;
          editThemeOkayButton.Text = "OK";
          editThemeOkayButton.UseVisualStyleBackColor = true;
@@ -2752,7 +2649,7 @@
          editThemeNameTextBox.ForeColor = Color.Black;
          editThemeNameTextBox.Location = new Point(138, 64);
          editThemeNameTextBox.Name = "editThemeNameTextBox";
-         editThemeNameTextBox.Size = new Size(266, 39);
+         editThemeNameTextBox.Size = new Size(266, 43);
          editThemeNameTextBox.TabIndex = 2811;
          // 
          // editThemeNamePrefixButton
@@ -2762,7 +2659,7 @@
          editThemeNamePrefixButton.ForeColor = Color.Black;
          editThemeNamePrefixButton.Location = new Point(11, 64);
          editThemeNamePrefixButton.Name = "editThemeNamePrefixButton";
-         editThemeNamePrefixButton.Size = new Size(107, 48);
+         editThemeNamePrefixButton.Size = new Size(104, 47);
          editThemeNamePrefixButton.TabIndex = 2810;
          editThemeNamePrefixButton.Text = "Name:";
          editThemeNamePrefixButton.UseVisualStyleBackColor = true;
@@ -2783,13 +2680,13 @@
          // 
          textBoxContextMenuStrip.Items.AddRange(new ToolStripItem[] { contextCutTSMI, contextCopyTSMI, contextPasteTSMI, toolStripSeparator20, contextSaveTSMI, contextSaveAsTSMI, contextSaveExitTSMI, toolStripSeparator21, contextSelectAllTSMI, contextDeleteTSMI });
          textBoxContextMenuStrip.Name = "textBoxContextMenuStrip";
-         textBoxContextMenuStrip.Size = new Size(448, 352);
+         textBoxContextMenuStrip.Size = new Size(370, 352);
          // 
          // contextCutTSMI
          // 
          contextCutTSMI.Name = "contextCutTSMI";
          contextCutTSMI.ShortcutKeys = Keys.Control | Keys.X;
-         contextCutTSMI.Size = new Size(447, 42);
+         contextCutTSMI.Size = new Size(369, 42);
          contextCutTSMI.Text = "C&ut";
          contextCutTSMI.Click += ContextCutTSMI_Click;
          // 
@@ -2797,7 +2694,7 @@
          // 
          contextCopyTSMI.Name = "contextCopyTSMI";
          contextCopyTSMI.ShortcutKeys = Keys.Control | Keys.C;
-         contextCopyTSMI.Size = new Size(447, 42);
+         contextCopyTSMI.Size = new Size(369, 42);
          contextCopyTSMI.Text = "&Copy";
          contextCopyTSMI.Click += ContextCopyTSMI_Click;
          // 
@@ -2805,20 +2702,20 @@
          // 
          contextPasteTSMI.Name = "contextPasteTSMI";
          contextPasteTSMI.ShortcutKeys = Keys.Control | Keys.V;
-         contextPasteTSMI.Size = new Size(447, 42);
+         contextPasteTSMI.Size = new Size(369, 42);
          contextPasteTSMI.Text = "&Paste";
          contextPasteTSMI.Click += ContextPasteTSMI_Click;
          // 
          // toolStripSeparator20
          // 
          toolStripSeparator20.Name = "toolStripSeparator20";
-         toolStripSeparator20.Size = new Size(444, 6);
+         toolStripSeparator20.Size = new Size(366, 6);
          // 
          // contextSaveTSMI
          // 
          contextSaveTSMI.Name = "contextSaveTSMI";
          contextSaveTSMI.ShortcutKeys = Keys.Control | Keys.S;
-         contextSaveTSMI.Size = new Size(447, 42);
+         contextSaveTSMI.Size = new Size(369, 42);
          contextSaveTSMI.Text = "&Save";
          contextSaveTSMI.Click += ContextSaveTSMI_Click;
          // 
@@ -2826,7 +2723,7 @@
          // 
          contextSaveAsTSMI.Name = "contextSaveAsTSMI";
          contextSaveAsTSMI.ShortcutKeys = Keys.Control | Keys.Shift | Keys.S;
-         contextSaveAsTSMI.Size = new Size(447, 42);
+         contextSaveAsTSMI.Size = new Size(369, 42);
          contextSaveAsTSMI.Text = "Save &As";
          contextSaveAsTSMI.Click += ContextSaveAsTSMI_Click;
          // 
@@ -2834,20 +2731,20 @@
          // 
          contextSaveExitTSMI.Name = "contextSaveExitTSMI";
          contextSaveExitTSMI.ShortcutKeys = Keys.Shift | Keys.F4;
-         contextSaveExitTSMI.Size = new Size(447, 42);
+         contextSaveExitTSMI.Size = new Size(369, 42);
          contextSaveExitTSMI.Text = "Save And E&xit";
          contextSaveExitTSMI.Click += ContextSaveExitTSMI_Click;
          // 
          // toolStripSeparator21
          // 
          toolStripSeparator21.Name = "toolStripSeparator21";
-         toolStripSeparator21.Size = new Size(444, 6);
+         toolStripSeparator21.Size = new Size(366, 6);
          // 
          // contextSelectAllTSMI
          // 
          contextSelectAllTSMI.Name = "contextSelectAllTSMI";
          contextSelectAllTSMI.ShortcutKeys = Keys.Control | Keys.A;
-         contextSelectAllTSMI.Size = new Size(447, 42);
+         contextSelectAllTSMI.Size = new Size(369, 42);
          contextSelectAllTSMI.Text = "Se&lect All";
          contextSelectAllTSMI.Click += ContextSelectAllTSMI_Click;
          // 
@@ -2855,7 +2752,7 @@
          // 
          contextDeleteTSMI.Name = "contextDeleteTSMI";
          contextDeleteTSMI.ShortcutKeys = Keys.Delete;
-         contextDeleteTSMI.Size = new Size(447, 42);
+         contextDeleteTSMI.Size = new Size(369, 42);
          contextDeleteTSMI.Text = "&Delete";
          contextDeleteTSMI.Click += ContextDeleteTSMI_Click;
          // 
@@ -2879,7 +2776,7 @@
          wheelingVelocityOKButton.ForeColor = Color.Black;
          wheelingVelocityOKButton.Location = new Point(11, 111);
          wheelingVelocityOKButton.Name = "wheelingVelocityOKButton";
-         wheelingVelocityOKButton.Size = new Size(59, 48);
+         wheelingVelocityOKButton.Size = new Size(63, 47);
          wheelingVelocityOKButton.TabIndex = 2990;
          wheelingVelocityOKButton.Text = "OK";
          wheelingVelocityOKButton.UseVisualStyleBackColor = true;
@@ -2892,7 +2789,7 @@
          wheelingVelocityUpDown.Maximum = new decimal(new int[] { 512, 0, 0, 0 });
          wheelingVelocityUpDown.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
          wheelingVelocityUpDown.Name = "wheelingVelocityUpDown";
-         wheelingVelocityUpDown.Size = new Size(128, 39);
+         wheelingVelocityUpDown.Size = new Size(128, 43);
          wheelingVelocityUpDown.TabIndex = 2911;
          wheelingVelocityUpDown.Value = new decimal(new int[] { 8, 0, 0, 0 });
          // 
@@ -2903,7 +2800,7 @@
          wheelingVelocityPrefixButton.ForeColor = Color.Black;
          wheelingVelocityPrefixButton.Location = new Point(11, 45);
          wheelingVelocityPrefixButton.Name = "wheelingVelocityPrefixButton";
-         wheelingVelocityPrefixButton.Size = new Size(171, 48);
+         wheelingVelocityPrefixButton.Size = new Size(126, 47);
          wheelingVelocityPrefixButton.TabIndex = 2910;
          wheelingVelocityPrefixButton.Text = "Velocity:";
          wheelingVelocityPrefixButton.UseVisualStyleBackColor = true;
@@ -2933,7 +2830,7 @@
          questionResponsePanel.Controls.Add(questionResponseTitleLabel);
          questionResponsePanel.Location = new Point(810, 526);
          questionResponsePanel.Name = "questionResponsePanel";
-         questionResponsePanel.Size = new Size(542, 271);
+         questionResponsePanel.Size = new Size(536, 270);
          questionResponsePanel.TabIndex = 3000;
          // 
          // questionResponseQuestionLabel
@@ -2941,7 +2838,7 @@
          questionResponseQuestionLabel.AutoSize = true;
          questionResponseQuestionLabel.Location = new Point(10, 131);
          questionResponseQuestionLabel.Name = "questionResponseQuestionLabel";
-         questionResponseQuestionLabel.Size = new Size(337, 76);
+         questionResponseQuestionLabel.Size = new Size(250, 74);
          questionResponseQuestionLabel.TabIndex = 3006;
          questionResponseQuestionLabel.Text = "Is this the question\r\nwhich corresponds?";
          // 
@@ -2950,7 +2847,7 @@
          questionResponseDiscussionLabel.AutoSize = true;
          questionResponseDiscussionLabel.Location = new Point(10, 52);
          questionResponseDiscussionLabel.Name = "questionResponseDiscussionLabel";
-         questionResponseDiscussionLabel.Size = new Size(529, 76);
+         questionResponseDiscussionLabel.Size = new Size(397, 74);
          questionResponseDiscussionLabel.TabIndex = 3005;
          questionResponseDiscussionLabel.Text = "This is the information you need\r\nto make a decision.";
          // 
@@ -2961,7 +2858,7 @@
          questionResponseNoButton.ForeColor = Color.Black;
          questionResponseNoButton.Location = new Point(111, 220);
          questionResponseNoButton.Name = "questionResponseNoButton";
-         questionResponseNoButton.Size = new Size(59, 48);
+         questionResponseNoButton.Size = new Size(63, 47);
          questionResponseNoButton.TabIndex = 3091;
          questionResponseNoButton.Tag = ResponseType.No;
          questionResponseNoButton.Text = "No";
@@ -2975,7 +2872,7 @@
          questionResponseYesButton.ForeColor = Color.Black;
          questionResponseYesButton.Location = new Point(10, 220);
          questionResponseYesButton.Name = "questionResponseYesButton";
-         questionResponseYesButton.Size = new Size(75, 48);
+         questionResponseYesButton.Size = new Size(65, 47);
          questionResponseYesButton.TabIndex = 3090;
          questionResponseYesButton.Tag = ResponseType.Yes;
          questionResponseYesButton.Text = "Yes";
@@ -3011,7 +2908,7 @@
          informationLabel.AutoSize = true;
          informationLabel.Location = new Point(10, 52);
          informationLabel.Name = "informationLabel";
-         informationLabel.Size = new Size(385, 114);
+         informationLabel.Size = new Size(280, 111);
          informationLabel.TabIndex = 3110;
          informationLabel.Text = "This is the information\r\nwhich is important\r\nfor you to know.";
          // 
@@ -3021,9 +2918,9 @@
          informationOkayButton.AutoSize = true;
          informationOkayButton.AutoSizeMode = AutoSizeMode.GrowAndShrink;
          informationOkayButton.ForeColor = Color.Black;
-         informationOkayButton.Location = new Point(10, 171);
+         informationOkayButton.Location = new Point(6, 172);
          informationOkayButton.Name = "informationOkayButton";
-         informationOkayButton.Size = new Size(59, 48);
+         informationOkayButton.Size = new Size(63, 47);
          informationOkayButton.TabIndex = 3091;
          informationOkayButton.Tag = ResponseType.Yes;
          informationOkayButton.Text = "OK";
@@ -3060,7 +2957,7 @@
          // 
          // toolStripContainer.ContentPanel
          // 
-         toolStripContainer.ContentPanel.Size = new Size(2375, 1073);
+         toolStripContainer.ContentPanel.Size = new Size(2375, 1076);
          toolStripContainer.Dock = DockStyle.Fill;
          toolStripContainer.Location = new Point(0, 0);
          toolStripContainer.Name = "toolStripContainer";
@@ -3290,17 +3187,7 @@
       private NumericUpDown recentFilesHistoryUpDown;
       private Button recentFilesHistoryPrefixButton;
       private Label recentFilesHistoryTitleLabel;
-      private ToolStripMenuItem xFontPickersTSMI;
-      private ToolStripMenuItem xColorPickersTSMI;
       private ToolStripSeparator toolStripSeparator14;
-      private ToolStripMenuItem xInterfaceFontTSMI;
-      private ToolStripMenuItem xTextFontTSMI;
-      private ToolStripMenuItem xInterfaceFontColorTSMI;
-      private ToolStripMenuItem xInterfaceBackgroundColorTSMI;
-      private ToolStripMenuItem xTextFontColorTSMI;
-      private ToolStripMenuItem xTextBackgroundColorTSMI;
-      private ToolStripMenuItem xMonospacedTextBoxFontTSMI;
-      private ToolStripSeparator toolStripSeparator15;
       private Panel fontSizePanel;
       private Button fontSizeCancelButton;
       private Button fontSizeOkayButton;
@@ -3318,9 +3205,8 @@
       private ToolStripMenuItem editThemeTSMI;
       private ToolStripMenuItem removeThemeTSMI;
       private ToolStripSeparator toolStripSeparator16;
-      private ToolStripMenuItem xStatusStripBackgroundColorTSMI;
       private ToolStripMenuItem statusStripBackgroundColorTSMI;
-      private ToolStripSeparator toolStripSeparator17;
+      private ToolStripSeparator toolStripSeparator15;
       private Panel createThemePanel;
       private Label createThemeTitleLabel;
       private Button createThemeCancelButton;
@@ -3335,7 +3221,6 @@
       private Label pickThemeLabel;
       private Button pickThemeCancelButton;
       private ToolStripMenuItem dialogBackgroundColorTSMI;
-      private ToolStripMenuItem xDialogBackgroundColorTSMI;
       private Button clearFileHistoryButton;
       private Label fileHistoryMinMaxLabel;
       private Label done;

@@ -47,10 +47,6 @@ namespace EasyPad {
          searchTextBox.Text = Settings.Default.ReplaceSearchString;
          replaceTextBox.Text = Settings.Default.ReplaceReplaceString;
          allIfNothingTSMI.Checked = Settings.Default.AllIfNothing;
-         sUndoList.Add(new UnReDoData(0, string.Empty));//Seed
-         if (!string.IsNullOrEmpty(sImportedText))
-            sUndoList.Add(new UnReDoData(0, sImportedText));
-
          toolStripContainer.TopToolStripPanel.AutoSize = true;
          toolStripContainer.BottomToolStripPanel.AutoSize = true;
          toolStripContainer.LeftToolStripPanel.AutoSize = true;
@@ -184,6 +180,17 @@ namespace EasyPad {
          wheelingVelocityPanel?.Dispose();
          statusStripBackgroundColorTSMI?.Dispose();
          dialogBackgroundColorTSMI?.Dispose();
+         xInterfaceFontTSMI?.Dispose();
+         xMonospacedTextBoxFontTSMI?.Dispose();
+         xTextFontTSMI?.Dispose();
+         xFontPickersTSMI?.Dispose();
+         xInterfaceFontColorTSMI?.Dispose();
+         xInterfaceBackgroundColorTSMI?.Dispose();
+         xTextFontColorTSMI?.Dispose();
+         xTextBackgroundColorTSMI?.Dispose();
+         xColorPickersTSMI?.Dispose();
+         xStatusStripBackgroundColorTSMI?.Dispose();
+         xDialogBackgroundColorTSMI?.Dispose();
          for (int i = 0; i < openRecentTSMI.DropDownItems.Count; i++)
             openRecentTSMI.DropDownItems[i]?.Dispose();
          openRecentTSMI?.Dispose();
@@ -231,6 +238,7 @@ namespace EasyPad {
          createThemeTSMI?.Dispose();
          removeThemeTSMI?.Dispose();
          editThemeTSMI?.Dispose();
+         xStatusStripBackgroundColorTSMI?.Dispose();
          deleteTSMI?.Dispose();
          editTSMI?.Dispose();
          exitTSMI?.Dispose();
@@ -272,8 +280,9 @@ namespace EasyPad {
          toolStripSeparator12?.Dispose();
          toolStripSeparator13?.Dispose();
          toolStripSeparator14?.Dispose();
-         toolStripSeparator16?.Dispose();
          toolStripSeparator15?.Dispose();
+         toolStripSeparator16?.Dispose();
+         toolStripSeparator17?.Dispose();
          undoTSMI?.Dispose();
          utfStatusLabel?.Dispose();
          versionStatusLabel?.Dispose();
@@ -284,7 +293,7 @@ namespace EasyPad {
          zoomInTSMI?.Dispose();
          zoomOutTSMI?.Dispose();
          toolStrip?.Dispose();
-         // efm5 2024 03 21 if we add Text-based buttons they will need to be disposed
+         // efm5 2024 03 21 if we add Text-based buttons They will need to be disposed
          openToolStripButton?.Dispose();
          saveToolStripButton?.Dispose();
          saveAsTSB?.Dispose();
@@ -487,30 +496,13 @@ namespace EasyPad {
             sRedoList.Add(new UnReDoData(currentData.sSelectionStart, textBox.Text));
          sUndoList.RemoveAt(sUndoList.Count - 1);
          if (sUndoList.Count > 0) {
-            UnReDoData previousData = sUndoList.Last();
-            textBox.TextChanged -= TextBox_TextChanged;
-            textBox.Text = previousData.mTextString;
-            textBox.SelectionStart = currentData.sSelectionStart;
-            textBox.ScrollToCaret();
-            textBox.TextChanged += TextBox_TextChanged;
+            UnReDoData unReDoData = sUndoList.Last();
+            textBox.Text = unReDoData.mTextString;
+            textBox.SelectionStart = unReDoData.sSelectionStart;
          }
-         else {// sUndoList.RemoveAt(sUndoList.Count - 1); Has emptied the list
-            if (!string.IsNullOrEmpty(sImportedText)) {//Must've gotten an import
-               textBox.TextChanged -= TextBox_TextChanged;
-               sUndoList.Add(new UnReDoData(0, string.Empty));//Seed
-               sUndoList.Add(new UnReDoData(0, sImportedText));
+         if (sUndoList.Count == 1) {
+            if (!string.IsNullOrEmpty(sImportedText) && (textBox.Text == string.Empty))
                textBox.Text = sImportedText;
-               textBox.SelectionStart = 0;
-               textBox.ScrollToCaret();
-               textBox.TextChanged += TextBox_TextChanged;
-            }
-            else {//No import – just seed
-               textBox.TextChanged -= TextBox_TextChanged;
-               sUndoList.Add(new UnReDoData(0, string.Empty));//Seed
-               textBox.Text = string.Empty;
-               textBox.SelectionStart = 0;
-               textBox.TextChanged += TextBox_TextChanged;
-            }
          }
       }
 
@@ -519,13 +511,10 @@ namespace EasyPad {
             return;
          sDoing = true;
          UnReDoData unReDoData = sRedoList.Last();
-         textBox.TextChanged -= TextBox_TextChanged;
          textBox.Text = unReDoData.mTextString;
          textBox.SelectionStart = unReDoData.sSelectionStart;
-         textBox.ScrollToCaret();
-         textBox.TextChanged += TextBox_TextChanged;
          sRedoList.RemoveAt(sRedoList.Count - 1);
-         sUndoList.Add(new UnReDoData(textBox.SelectionStart, textBox.Text));
+         sUndoList.Add(new UnReDoData(unReDoData.sSelectionStart, textBox.Text));
       }
 
       private void CutTSMI_Click(object pSender, EventArgs pE) {
