@@ -491,8 +491,9 @@ namespace EasyPad {
          if (sUndoList.Count == 0)
             return;
          sDoing = true;
+         UnReDoData currentData = sUndoList.Last();
          if (!string.IsNullOrEmpty(textBox.Text))
-            sRedoList.Add(new UnReDoData(textBox.SelectionStart, textBox.Text));
+            sRedoList.Add(new UnReDoData(currentData.sSelectionStart, textBox.Text));
          sUndoList.RemoveAt(sUndoList.Count - 1);
          if (sUndoList.Count > 0) {
             UnReDoData unReDoData = sUndoList.Last();
@@ -513,7 +514,7 @@ namespace EasyPad {
          textBox.Text = unReDoData.mTextString;
          textBox.SelectionStart = unReDoData.sSelectionStart;
          sRedoList.RemoveAt(sRedoList.Count - 1);
-         sUndoList.Add(new UnReDoData(textBox.SelectionStart, textBox.Text));
+         sUndoList.Add(new UnReDoData(unReDoData.sSelectionStart, textBox.Text));
       }
 
       private void CutTSMI_Click(object pSender, EventArgs pE) {
